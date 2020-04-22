@@ -123,18 +123,6 @@ int MapBuilder::AddTrajectoryBuilder(
           SelectRangeSensorIds(expected_sensor_ids));
     }
     DCHECK(dynamic_cast<PoseGraph2D*>(pose_graph_.get()));
-
-
-//    std::unique_ptr<TrajectoryBuilderInterface> global_trajectory_wraper = 
-//        CreateGlobalTrajectoryBuilder2D(
-//                std::move(local_trajectory_builder), trajectory_id,
-//                static_cast<PoseGraph2D*>(pose_graph_.get()),
-//                local_slam_result_callback);
-//
-//    trajectory_builders_.push_back(
-//        common::make_unique<CollatedTrajectoryBuilder>(
-//            sensor_collator_.get(), trajectory_id, expected_sensor_ids,
-//            std::move(global_trajectory_wraper)));
     trajectory_builders_.push_back(
         common::make_unique<CollatedTrajectoryBuilder>(
             sensor_collator_.get(), trajectory_id, expected_sensor_ids,
