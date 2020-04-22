@@ -74,6 +74,19 @@ class MapBuilder : public MapBuilderInterface {
     return trajectory_builders_.at(trajectory_id).get();
   }
 
+
+  bool IfKidnapped() override{
+    return ifkidnaped;
+  }
+
+  void SetKinap(){
+    ifkidnaped = true;
+  }
+
+  void ResetKinap(){
+    ifkidnaped = false;
+  }
+
   const std::vector<proto::TrajectoryBuilderOptionsWithSensorIds>
       &GetAllTrajectoryBuilderOptions() const override {
     return all_trajectory_builder_options_;
@@ -82,6 +95,8 @@ class MapBuilder : public MapBuilderInterface {
  private:
   const proto::MapBuilderOptions options_;
   common::ThreadPool thread_pool_;
+
+  bool ifkidnaped = false;
 
   std::unique_ptr<PoseGraph> pose_graph_;
 
