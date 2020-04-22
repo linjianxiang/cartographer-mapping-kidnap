@@ -3541,8 +3541,9 @@ GetInstance	ceres-solver/internal/ceres/gmock_gtest_all.cc	/^UnitTest* UnitTest:
 GetInt	cartographer/cartographer/common/lua_parameter_dictionary.cc	/^int LuaParameterDictionary::GetInt(const std::string& key) {$/;"	f	class:cartographer::common::LuaParameterDictionary
 GetInterpolatedGlobalTrajectoryPose	cartographer/cartographer/mapping/internal/2d/pose_graph_2d.cc	/^transform::Rigid3d PoseGraph2D::GetInterpolatedGlobalTrajectoryPose($/;"	f	class:cartographer::mapping::PoseGraph2D
 GetInterpolatedGlobalTrajectoryPose	cartographer/cartographer/mapping/internal/3d/pose_graph_3d.cc	/^transform::Rigid3d PoseGraph3D::GetInterpolatedGlobalTrajectoryPose($/;"	f	class:cartographer::mapping::PoseGraph3D
+GetIsKidnapResult	cartographer/cartographer/mapping/internal/2d/local_trajectory_builder_2d.h	/^  bool GetIsKidnapResult(){$/;"	f	class:cartographer::mapping::LocalTrajectoryBuilder2D
+GetIsKidnapResult	cartographer/cartographer/mapping/internal/3d/local_trajectory_builder_3d.h	/^  bool GetIsKidnapResult(){$/;"	f	class:cartographer::mapping::LocalTrajectoryBuilder3D
 GetKeys	cartographer/cartographer/common/lua_parameter_dictionary.cc	/^std::vector<std::string> LuaParameterDictionary::GetKeys() const {$/;"	f	class:cartographer::common::LuaParameterDictionary
-GetKidnapResult	cartographer/cartographer/mapping/internal/2d/local_trajectory_builder_2d.h	/^  bool GetKidnapResult(){$/;"	f	class:cartographer::mapping::LocalTrajectoryBuilder2D
 GetKidnapSubmapList	cartographer_ros/cartographer_ros/cartographer_ros/map_builder_bridge.cc	/^cartographer_ros_msgs::SubmapList MapBuilderBridge::GetKidnapSubmapList() {$/;"	f	class:cartographer_ros::MapBuilderBridge
 GetLandmarkIndex	cartographer_ros/cartographer_ros/cartographer_ros/map_builder_bridge.cc	/^int GetLandmarkIndex($/;"	f	namespace:cartographer_ros::__anon140
 GetLandmarkNodes	cartographer/cartographer/mapping/internal/2d/pose_graph_2d.cc	/^PoseGraph2D::GetLandmarkNodes() const {$/;"	f	class:cartographer::mapping::PoseGraph2D
@@ -6297,6 +6298,7 @@ Reset	cartographer_ros/cartographer_rviz/cartographer_rviz/submaps_display.cc	/^
 Reset	ceres-solver/include/ceres/loss_function.h	/^  void Reset(LossFunction* rho, Ownership ownership) {$/;"	f	class:ceres::LossFunctionWrapper
 Reset	ceres-solver/internal/ceres/gmock_gtest_all.cc	/^void AutoHandle::Reset() {$/;"	f	class:testing::internal::AutoHandle
 Reset	ceres-solver/internal/ceres/gmock_gtest_all.cc	/^void AutoHandle::Reset(HANDLE handle) {$/;"	f	class:testing::internal::AutoHandle
+ResetKinap	cartographer/cartographer/mapping/map_builder.h	/^  void ResetKinap(){$/;"	f	class:cartographer::mapping::MapBuilder
 ResetTimeStatistics	ceres-solver/internal/ceres/line_search.cc	/^void LineSearchFunction::ResetTimeStatistics() {$/;"	f	class:ceres::internal::LineSearchFunction
 Residual10Param	ceres-solver/internal/ceres/autodiff_test.cc	/^struct Residual10Param {$/;"	s	namespace:ceres::internal	file:
 Residual1Param	ceres-solver/internal/ceres/autodiff_test.cc	/^struct Residual1Param {$/;"	s	namespace:ceres::internal	file:
@@ -6627,6 +6629,7 @@ SetInitialTrajectoryPose	cartographer/cartographer/mapping/internal/3d/pose_grap
 SetInjectableArgvs	ceres-solver/internal/ceres/gmock_gtest_all.cc	/^void SetInjectableArgvs(const ::std::vector<testing::internal::string>* argvs) {$/;"	f	namespace:testing::internal
 SetIsSafe	ceres-solver/internal/ceres/mutex.h	/^  inline void SetIsSafe() { is_safe_ = true; }$/;"	f	class:ceres::internal::Mutex
 SetJacobianOffset	ceres-solver/internal/ceres/gradient_checker_test.cc	/^  void SetJacobianOffset(size_t index, Matrix offset) {$/;"	f	class:ceres::internal::LinearCostFunction
+SetKinap	cartographer/cartographer/mapping/map_builder.h	/^  void SetKinap(){$/;"	f	class:cartographer::mapping::MapBuilder
 SetLandmarkPose	cartographer/cartographer/cloud/internal/client/pose_graph_stub.cc	/^void PoseGraphStub::SetLandmarkPose(const std::string& landmark_id,$/;"	f	class:cartographer::cloud::PoseGraphStub
 SetLandmarkPose	cartographer/cartographer/mapping/internal/2d/pose_graph_2d.cc	/^void PoseGraph2D::SetLandmarkPose(const std::string& landmark_id,$/;"	f	class:cartographer::mapping::PoseGraph2D
 SetLandmarkPose	cartographer/cartographer/mapping/internal/3d/pose_graph_3d.cc	/^void PoseGraph3D::SetLandmarkPose(const std::string& landmark_id,$/;"	f	class:cartographer::mapping::PoseGraph3D
@@ -11345,6 +11348,7 @@ id_end	ceres-solver/examples/slam/pose_graph_3d/types.h	/^  int id_end;$/;"	m	st
 id_to_pending_data_	cartographer/cartographer/mapping/internal/range_data_collator.h	/^  std::map<std::string, sensor::TimedPointCloudData> id_to_pending_data_;$/;"	m	class:cartographer::mapping::RangeDataCollator
 identity_	ceres-solver/internal/ceres/casts.h	/^struct identity_ {$/;"	s	namespace:ceres
 ids_	ceres-solver/internal/ceres/gmock_gtest_all.cc	/^  IdMap ids_;$/;"	m	class:testing::internal::edit_distance::__anon165::InternalStrings	file:
+ifkidnaped	cartographer/cartographer/mapping/map_builder.h	/^  bool ifkidnaped = false;$/;"	m	class:cartographer::mapping::MapBuilder
 image	ceres-solver/examples/libmv_bundle_adjuster.cc	/^  int image;$/;"	m	struct:__anon155::EuclideanCamera	file:
 image	ceres-solver/examples/libmv_bundle_adjuster.cc	/^  int image;$/;"	m	struct:__anon155::Marker	file:
 immediate_prerequisites_	ceres-solver/internal/ceres/gmock/gmock.h	/^  ExpectationSet immediate_prerequisites_;$/;"	m	class:testing::internal::ExpectationBase
