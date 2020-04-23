@@ -73,6 +73,7 @@ class MapBuilderBridge {
   void RunFinalOptimization();
   bool SerializeState(const std::string& filename);
 
+  bool GetIfKidnapResult(const int trajectory_id);
   void HandleSubmapQuery(
       cartographer_ros_msgs::SubmapQuery::Request& request,
       cartographer_ros_msgs::SubmapQuery::Response& response);

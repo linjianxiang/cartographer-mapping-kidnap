@@ -524,4 +524,8 @@ void MapBuilderBridge::OnLocalSlamResult(
   trajectory_state_data_[trajectory_id] = std::move(local_slam_data);
 }
 
+bool MapBuilderBridge::GetIfKidnapResult(const int trajectory_id){
+    return map_builder_ -> GetIfKidnapResult(trajectory_id);
+}
+
 }  // namespace cartographer_ros
