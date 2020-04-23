@@ -83,8 +83,9 @@ class CollatedTrajectoryBuilder : public TrajectoryBuilderInterface {
   }
 
   bool GetIfKidnapResult(){
-      LOG(INFO) << "In collated trajectory builder, the trajectory: " << trajectory_id_;
-      return false;
+      return wrapped_trajectory_builder_.get()->GetIfKidnapResult();
+      //LOG(INFO) << "In collated trajectory builder, the trajectory: " << trajectory_id_;
+      //return false;
   }
  private:
   void AddData(std::unique_ptr<sensor::Data> data);

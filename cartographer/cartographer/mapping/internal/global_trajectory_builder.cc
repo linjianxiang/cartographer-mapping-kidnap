@@ -133,7 +133,7 @@ class GlobalTrajectoryBuilder : public mapping::TrajectoryBuilderInterface {
   }
 
   bool GetIfKidnapResult(){
-      LOG(INFO) << "In global trajectory builder, the trajectory: " << trajectory_id_ <<"  is kindnapped :" << IfKidnapped_;
+      //LOG(INFO) << "In global trajectory builder, the trajectory: " << trajectory_id_ <<"  is kindnapped :" << IfKidnapped_;
       return IfKidnapped_;
   }
  private:

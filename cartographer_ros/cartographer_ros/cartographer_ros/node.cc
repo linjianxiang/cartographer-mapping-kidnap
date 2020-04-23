@@ -695,6 +695,9 @@ void Node::HandleLaserScanMessage(const int trajectory_id,
   }
   map_builder_bridge_.sensor_bridge(trajectory_id)
       ->HandleLaserScanMessage(sensor_id, msg);
+  if(map_builder_bridge_.GetIfKidnapResult(trajectory_id)){
+      LOG(WARNING) << "kidnap found from trajectory: " << trajectory_id;
+  }
 }
 
 void Node::HandleMultiEchoLaserScanMessage(
