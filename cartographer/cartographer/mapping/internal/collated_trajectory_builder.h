@@ -82,6 +82,10 @@ class CollatedTrajectoryBuilder : public TrajectoryBuilderInterface {
     AddData(std::move(local_slam_result_data));
   }
 
+ // bool GetIfKidnapResult(){
+ //     LOG(INFO) << "In collated trajectory builder, the trajectory: " << trajectory_id_;
+ //     return false;
+ // }
  private:
   void AddData(std::unique_ptr<sensor::Data> data);
 

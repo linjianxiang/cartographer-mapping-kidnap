@@ -68,7 +68,7 @@ class MapBuilderInterface {
   virtual mapping::TrajectoryBuilderInterface* GetTrajectoryBuilder(
       int trajectory_id) const = 0;
 
-  virtual bool IfKidnapped() = 0;
+  virtual bool GetIfKidnapped(int trajectory_id) = 0;
   // Marks the TrajectoryBuilder corresponding to 'trajectory_id' as finished,
   // i.e. no further sensor data is expected.
   virtual void FinishTrajectory(int trajectory_id) = 0;

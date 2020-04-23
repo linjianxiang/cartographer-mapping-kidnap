@@ -75,17 +75,18 @@ class MapBuilder : public MapBuilderInterface {
   }
 
 
-  bool IfKidnapped() override{
+  bool GetIfKidnapped(int trajectory_id) override{
+      //ifkidnaped = GetTrajectoryBuilder(trajectory_id)->GetIfKidnapResult();
     return ifkidnaped;
   }
 
-  void SetKinap(){
-    ifkidnaped = true;
-  }
-
-  void ResetKinap(){
-    ifkidnaped = false;
-  }
+//  void SetKinap(){
+//    ifkidnaped = true;
+//  }
+//
+//  void ResetKinap(){
+//    ifkidnaped = false;
+//  }
 
   const std::vector<proto::TrajectoryBuilderOptionsWithSensorIds>
       &GetAllTrajectoryBuilderOptions() const override {

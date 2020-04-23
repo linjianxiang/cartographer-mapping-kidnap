@@ -16,7 +16,7 @@ class KidnapDetection{
 
         //clear the kidnap flag when a new map is initialized
         void KidnapDetectionReset(){
-            IfKidnapped =0;
+            IfKidnapped =false;
             CounterClear();
         }
         bool GetResult(){return IfKidnapped;}
