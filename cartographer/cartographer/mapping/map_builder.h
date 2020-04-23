@@ -75,8 +75,8 @@ class MapBuilder : public MapBuilderInterface {
   }
 
 
-  bool GetIfKidnapped(int trajectory_id) override{
-      //ifkidnaped = GetTrajectoryBuilder(trajectory_id)->GetIfKidnapResult();
+  bool GetIfKidnappedResult(int trajectory_id) override{
+      ifkidnaped = GetTrajectoryBuilder(trajectory_id)->GetIfKidnapResult();
     return ifkidnaped;
   }
 

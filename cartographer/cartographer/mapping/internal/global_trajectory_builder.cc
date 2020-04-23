@@ -64,18 +64,10 @@ class GlobalTrajectoryBuilder : public mapping::TrajectoryBuilderInterface {
       return;
     }
 
-    if (local_trajectory_builder_->GetIsKidnapResult() && trajectory_id_ == 0){
-        //pose_graph_->FinishTrajectory(trajectory_id_);
+    //if (local_trajectory_builder_->GetIsKidnapResult() && trajectory_id_ == 0){
+    if (local_trajectory_builder_->GetIsKidnapResult()){
         IfKidnapped_ = true;
-        //pose_graph_->FreezeTrajectory(trajectory_id_);
-        LOG(INFO) << "kidnaped finish trajectory " << trajectory_id_;
-   //     if (pose_graph_ ->IsTrajectoryFrozen(trajectory_id_) )
-   //     {
-
-   //     }else{
-   //         LOG(INFO) << "is kidnapeed , freeze trajectory ";
-   //         pose_graph_->FreezeTrajectory(trajectory_id_);
-   //     }
+        //LOG(INFO) << "kidnaped finish trajectory " << trajectory_id_;
     }
 
 
@@ -140,10 +132,10 @@ class GlobalTrajectoryBuilder : public mapping::TrajectoryBuilderInterface {
     local_slam_result_data->AddToPoseGraph(trajectory_id_, pose_graph_);
   }
 
- // bool GetIfKidnapResult(){
- //     LOG(INFO) << "In global trajectory builder, the trajectory: " << trajectory_id_ <<"  is kindnapped :" << IfKidnapped_;
- //     return IfKidnapped_;
- // }
+  bool GetIfKidnapResult(){
+      LOG(INFO) << "In global trajectory builder, the trajectory: " << trajectory_id_ <<"  is kindnapped :" << IfKidnapped_;
+      return IfKidnapped_;
+  }
  private:
   const int trajectory_id_;
   PoseGraph* const pose_graph_;
