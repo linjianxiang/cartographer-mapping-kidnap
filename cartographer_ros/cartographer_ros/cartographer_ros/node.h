@@ -212,6 +212,8 @@ class Node {
   // We have to keep the timer handles of ::ros::WallTimers around, otherwise
   // they do not fire.
   std::vector<::ros::WallTimer> wall_timers_;
+  bool ifkidnaped_ = false;
+  TrajectoryOptions trajectory_options_;
 };
 
 }  // namespace cartographer_ros

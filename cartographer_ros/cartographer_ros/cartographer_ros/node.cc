@@ -353,10 +353,10 @@ int Node::AddTrajectory(const TrajectoryOptions& options,
       expected_sensor_ids = ComputeExpectedSensorIds(options, topics);
   const int trajectory_id =
       map_builder_bridge_.AddTrajectory(expected_sensor_ids, options);
-  const int trajectory_id2 = 
-      map_builder_bridge_.AddTrajectory(expected_sensor_ids, options);
-  LOG(INFO) << "testing the added trajectory id is " << trajectory_id2;
-  LOG(INFO) << "testing the default trajectory id is " << trajectory_id;
+ // const int trajectory_id2 =
+ //     map_builder_bridge_.AddTrajectory(expected_sensor_ids, options);
+ // LOG(INFO) << "testing the added trajectory id is " << trajectory_id2;
+  LOG(INFO) << "Trajectory added, id is " << trajectory_id;
 
 
   AddExtrapolator(trajectory_id, options);
@@ -364,10 +364,10 @@ int Node::AddTrajectory(const TrajectoryOptions& options,
   LaunchSubscribers(options, topics, trajectory_id);
   is_active_trajectory_[trajectory_id] = true;
 
-  AddExtrapolator(trajectory_id2, options);
-  AddSensorSamplers(trajectory_id2, options);
-  LaunchSubscribers(options, topics, trajectory_id2);
-  is_active_trajectory_[trajectory_id2] = true;
+ // AddExtrapolator(trajectory_id2, options);
+ // AddSensorSamplers(trajectory_id2, options);
+ // LaunchSubscribers(options, topics, trajectory_id2);
+ // is_active_trajectory_[trajectory_id2] = true;
 
   for (const auto& sensor_id : expected_sensor_ids) {
     subscribed_topics_.insert(sensor_id.id);
@@ -509,6 +509,7 @@ cartographer_ros_msgs::StatusResponse Node::FinishTrajectoryUnderLock(
   CHECK_EQ(subscribers_.erase(trajectory_id), 1);
   CHECK(is_active_trajectory_.at(trajectory_id));
   map_builder_bridge_.FinishTrajectory(trajectory_id);
+  LOG(INFO) << "Trajectory : " <<trajectory_id << " is finished";
   is_active_trajectory_[trajectory_id] = false;
   const std::string message =
       "Finished trajectory " + std::to_string(trajectory_id) + ".";
@@ -545,6 +546,7 @@ bool Node::HandleStartTrajectory(
 void Node::StartTrajectoryWithDefaultTopics(const TrajectoryOptions& options) {
   carto::common::MutexLocker lock(&mutex_);
   CHECK(ValidateTrajectoryOptions(options));
+  trajectory_options_ = options;
   AddTrajectory(options, DefaultSensorTopics());
 }
 
@@ -616,7 +618,9 @@ void Node::FinishAllTrajectories() {
 }
 
 bool Node::FinishTrajectory(const int trajectory_id) {
-  carto::common::MutexLocker lock(&mutex_);
+ // LOG(INFO) << "before handle finish trajectory mutexlocker";
+ // carto::common::MutexLocker lock(&mutex_);
+ // LOG(INFO) << "after handle finish trajectory mutexlocker";
   return FinishTrajectoryUnderLock(trajectory_id).code ==
          cartographer_ros_msgs::StatusCode::OK;
 }
@@ -695,8 +699,13 @@ void Node::HandleLaserScanMessage(const int trajectory_id,
   }
   map_builder_bridge_.sensor_bridge(trajectory_id)
       ->HandleLaserScanMessage(sensor_id, msg);
-  if(map_builder_bridge_.GetIfKidnapResult(trajectory_id)){
+  if(map_builder_bridge_.GetIfKidnapResult(trajectory_id) && ifkidnaped_ == false){
+      ifkidnaped_ = true ;
       LOG(WARNING) << "kidnap found from trajectory: " << trajectory_id;
+      FinishTrajectory(trajectory_id);
+      int trajectory_id_new = AddTrajectory(trajectory_options_, DefaultSensorTopics());
+      LOG(INFO) << "new trajectory created, its id is : " << trajectory_id_new;
+
   }
 }
 
