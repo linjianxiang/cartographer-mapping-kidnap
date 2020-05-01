@@ -701,9 +701,9 @@ void Node::HandleLaserScanMessage(const int trajectory_id,
       ->HandleLaserScanMessage(sensor_id, msg);
   if(map_builder_bridge_.GetIfKidnapResult(trajectory_id) && ifkidnaped_ == false){
       ifkidnaped_ = true ;
-      LOG(WARNING) << "kidnap found from trajectory: " << trajectory_id;
       FinishTrajectory(trajectory_id);
       int trajectory_id_new = AddTrajectory(trajectory_options_, DefaultSensorTopics());
+      LOG(WARNING) << "kidnap found from trajectory: " << trajectory_id;
       LOG(INFO) << "new trajectory created, its id is : " << trajectory_id_new;
 
   }

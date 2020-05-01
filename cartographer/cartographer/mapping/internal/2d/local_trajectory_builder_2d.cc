@@ -115,8 +115,11 @@ std::unique_ptr<transform::Rigid2d> LocalTrajectoryBuilder2D::ScanMatch(
     if (summary.final_cost > max_final_cost){
         max_final_cost = summary.final_cost;
     }
-    //LOG(INFO) << "current final cost is : "<< summary.final_cost;
-    kidnapdetection_->ScanMatchingCostTest(summary.final_cost);
+    //LOG(INFO) << "The final cost is : "<< summary.final_cost;
+    //kidnapdetection_->ScanMatchingCostTest(summary.final_cost);
+    kidnapdetection_->AverageFilterTest(summary.final_cost);
+
+    //kidnapdetection_->ExponentialFilterTest(summary.final_cost);
     //std::cout<<"max final cost is " << max_final_cost<<std::endl;
 
     kScanMatcherResidualAngleMetric->Observe(residual_angle);
