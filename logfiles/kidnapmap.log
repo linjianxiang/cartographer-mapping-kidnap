@@ -1,0 +1,1140 @@
+[0m[ INFO] [1588133776.871198283]: I0428 22:16:16.000000 21044 configuration_file_resolver.cc:41] Found '/home/linjian/workspaces/catkin_ws/install_isolated/share/cartographer_ros/configuration_files/revo_lds.lua' for 'revo_lds.lua'.[0m
+[0m[ INFO] [1588133776.871977835]: I0428 22:16:16.000000 21044 configuration_file_resolver.cc:41] Found '/home/linjian/workspaces/catkin_ws/install_isolated/share/cartographer/configuration_files/map_builder.lua' for 'map_builder.lua'.[0m
+[0m[ INFO] [1588133776.872047598]: I0428 22:16:16.000000 21044 configuration_file_resolver.cc:41] Found '/home/linjian/workspaces/catkin_ws/install_isolated/share/cartographer/configuration_files/map_builder.lua' for 'map_builder.lua'.[0m
+[0m[ INFO] [1588133776.872177417]: I0428 22:16:16.000000 21044 configuration_file_resolver.cc:41] Found '/home/linjian/workspaces/catkin_ws/install_isolated/share/cartographer/configuration_files/pose_graph.lua' for 'pose_graph.lua'.[0m
+[0m[ INFO] [1588133776.872235608]: I0428 22:16:16.000000 21044 configuration_file_resolver.cc:41] Found '/home/linjian/workspaces/catkin_ws/install_isolated/share/cartographer/configuration_files/pose_graph.lua' for 'pose_graph.lua'.[0m
+[0m[ INFO] [1588133776.872664438]: I0428 22:16:16.000000 21044 configuration_file_resolver.cc:41] Found '/home/linjian/workspaces/catkin_ws/install_isolated/share/cartographer/configuration_files/trajectory_builder.lua' for 'trajectory_builder.lua'.[0m
+[0m[ INFO] [1588133776.872761183]: I0428 22:16:16.000000 21044 configuration_file_resolver.cc:41] Found '/home/linjian/workspaces/catkin_ws/install_isolated/share/cartographer/configuration_files/trajectory_builder.lua' for 'trajectory_builder.lua'.[0m
+[0m[ INFO] [1588133776.872927822]: I0428 22:16:16.000000 21044 configuration_file_resolver.cc:41] Found '/home/linjian/workspaces/catkin_ws/install_isolated/share/cartographer/configuration_files/trajectory_builder_2d.lua' for 'trajectory_builder_2d.lua'.[0m
+[0m[ INFO] [1588133776.873017754]: I0428 22:16:16.000000 21044 configuration_file_resolver.cc:41] Found '/home/linjian/workspaces/catkin_ws/install_isolated/share/cartographer/configuration_files/trajectory_builder_2d.lua' for 'trajectory_builder_2d.lua'.[0m
+[0m[ INFO] [1588133776.873356322]: I0428 22:16:16.000000 21044 configuration_file_resolver.cc:41] Found '/home/linjian/workspaces/catkin_ws/install_isolated/share/cartographer/configuration_files/trajectory_builder_3d.lua' for 'trajectory_builder_3d.lua'.[0m
+[0m[ INFO] [1588133776.873457175]: I0428 22:16:16.000000 21044 configuration_file_resolver.cc:41] Found '/home/linjian/workspaces/catkin_ws/install_isolated/share/cartographer/configuration_files/trajectory_builder_3d.lua' for 'trajectory_builder_3d.lua'.[0m
+[0m[ INFO] [1588133776.881373762]: I0428 22:16:16.000000 21044 node_main.cc:66] start trajectory with default topics[0m
+[0m[ INFO] [1588133776.882079462]: I0428 22:16:16.000000 21044 submap_2d.cc:187] Added submap 1[0m
+[0m[ INFO] [1588133776.882136451]: I0428 22:16:16.000000 21044 map_builder_bridge.cc:130] Added trajectory with ID '0'.[0m
+cartographer AddTrejectory(), added trajectory with id : 0
+[0m[ INFO] [1588133776.882220392]: I0428 22:16:16.000000 21044 node.cc:359] Trajectory added, id is 0[0m
+[0m[ INFO] [1588133777.175596729, 0.214748364]: I0428 22:16:17.000000 21044 ordered_multi_queue.cc:172] All sensor data for trajectory 0 is available starting at '621355968002147484'.[0m
+[0m[ INFO] [1588133777.183152325, 0.215857647]: I0428 22:16:17.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.405[0m
+[0m[ INFO] [1588133777.183197461, 0.215857647]: I0428 22:16:17.000000 21044 kidnap_detection.cc:35] weight fast is 1.7284[0m
+[0m[ INFO] [1588133777.183231095, 0.215857647]: I0428 22:16:17.000000 21044 kidnap_detection.cc:36] weight slow is 0.493827[0m
+[33m[ WARN] [1588133777.183476254, 0.215857647]: W0428 22:16:17.000000 21044 pose_extrapolator.cc:168] Queue too short for velocity estimation. Queue duration: 0 ms[0m
+[0m[ INFO] [1588133777.397183434, 0.427735867]: I0428 22:16:17.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.170235[0m
+[0m[ INFO] [1588133777.397211037, 0.427735867]: I0428 22:16:17.000000 21044 kidnap_detection.cc:35] weight fast is 4.63048[0m
+[0m[ INFO] [1588133777.397226527, 0.427735867]: I0428 22:16:17.000000 21044 kidnap_detection.cc:36] weight slow is 1.56991[0m
+[0m[ INFO] [1588133777.615815577, 0.649955423]: I0428 22:16:17.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.131256[0m
+[0m[ INFO] [1588133777.615862747, 0.649955423]: I0428 22:16:17.000000 21044 kidnap_detection.cc:35] weight fast is 6.72223[0m
+[0m[ INFO] [1588133777.615895149, 0.649955423]: I0428 22:16:17.000000 21044 kidnap_detection.cc:36] weight slow is 2.77967[0m
+[0m[ INFO] [1588133777.829539479, 0.861664220]: I0428 22:16:17.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.121955[0m
+[0m[ INFO] [1588133777.829624371, 0.861664220]: I0428 22:16:17.000000 21044 kidnap_detection.cc:35] weight fast is 7.75648[0m
+[0m[ INFO] [1588133777.829691059, 0.861664220]: I0428 22:16:17.000000 21044 kidnap_detection.cc:36] weight slow is 3.86368[0m
+[0m[ INFO] [1588133777.968775007, 1.002946885]: I0428 22:16:17.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.101098[0m
+[0m[ INFO] [1588133777.968824743, 1.002946885]: I0428 22:16:17.000000 21044 kidnap_detection.cc:35] weight fast is 9.2509[0m
+[0m[ INFO] [1588133777.968857435, 1.002946885]: I0428 22:16:17.000000 21044 kidnap_detection.cc:36] weight slow is 5.06922[0m
+[0m[ INFO] [1588133778.183728227, 1.216089581]: I0428 22:16:18.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.114496[0m
+[0m[ INFO] [1588133778.183760740, 1.216089581]: I0428 22:16:18.000000 21044 kidnap_detection.cc:35] weight fast is 8.88905[0m
+[0m[ INFO] [1588133778.183807639, 1.216089581]: I0428 22:16:18.000000 21044 kidnap_detection.cc:36] weight slow is 5.80217[0m
+[0m[ INFO] [1588133778.398087741, 1.428386108]: I0428 22:16:18.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.112943[0m
+[0m[ INFO] [1588133778.398144500, 1.428386108]: I0428 22:16:18.000000 21044 kidnap_detection.cc:35] weight fast is 8.86455[0m
+[0m[ INFO] [1588133778.398224282, 1.428386108]: I0428 22:16:18.000000 21044 kidnap_detection.cc:36] weight slow is 6.41254[0m
+[0m[ INFO] [1588133778.610550216, 1.650034998]: I0428 22:16:18.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0854543[0m
+[0m[ INFO] [1588133778.610609860, 1.650034998]: I0428 22:16:18.000000 21044 kidnap_detection.cc:35] weight fast is 10.8509[0m
+[0m[ INFO] [1588133778.610653593, 1.650034998]: I0428 22:16:18.000000 21044 kidnap_detection.cc:36] weight slow is 7.47047[0m
+[0m[ INFO] [1588133778.827475748, 1.861820056]: I0428 22:16:18.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0920822[0m
+[0m[ INFO] [1588133778.827536475, 1.861820056]: I0428 22:16:18.000000 21044 kidnap_detection.cc:35] weight fast is 10.8572[0m
+[0m[ INFO] [1588133778.827581471, 1.861820056]: I0428 22:16:18.000000 21044 kidnap_detection.cc:36] weight slow is 8.14835[0m
+[0m[ INFO] [1588133778.967516225, 2.002996546]: I0428 22:16:18.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0916386[0m
+[0m[ INFO] [1588133778.967606558, 2.002996546]: I0428 22:16:18.000000 21044 kidnap_detection.cc:35] weight fast is 10.8958[0m
+[0m[ INFO] [1588133778.967638960, 2.002996546]: I0428 22:16:18.000000 21044 kidnap_detection.cc:36] weight slow is 8.70116[0m
+[0m[ INFO] [1588133779.181291678, 2.214882584]: I0428 22:16:19.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0794727[0m
+[0m[ INFO] [1588133779.181338257, 2.214882584]: I0428 22:16:19.000000 21044 kidnap_detection.cc:35] weight fast is 12.0768[0m
+[0m[ INFO] [1588133779.181366732, 2.214882584]: I0428 22:16:19.000000 21044 kidnap_detection.cc:36] weight slow is 9.47752[0m
+[0m[ INFO] [1588133779.395912157, 2.426977171]: I0428 22:16:19.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.069211[0m
+[0m[ INFO] [1588133779.395944318, 2.426977171]: I0428 22:16:19.000000 21044 kidnap_detection.cc:35] weight fast is 13.737[0m
+[0m[ INFO] [1588133779.395962984, 2.426977171]: I0428 22:16:19.000000 21044 kidnap_detection.cc:36] weight slow is 10.4717[0m
+[0m[ INFO] [1588133779.610947490, 2.648570741]: I0428 22:16:19.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0771861[0m
+[0m[ INFO] [1588133779.610996483, 2.648570741]: I0428 22:16:19.000000 21044 kidnap_detection.cc:35] weight fast is 13.1901[0m
+[0m[ INFO] [1588133779.611026180, 2.648570741]: I0428 22:16:19.000000 21044 kidnap_detection.cc:36] weight slow is 10.9685[0m
+[0m[ INFO] [1588133779.825203201, 2.860515941]: I0428 22:16:19.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0657814[0m
+[0m[ INFO] [1588133779.825250551, 2.860515941]: I0428 22:16:19.000000 21044 kidnap_detection.cc:35] weight fast is 14.5983[0m
+[0m[ INFO] [1588133779.825278394, 2.860515941]: I0428 22:16:19.000000 21044 kidnap_detection.cc:36] weight slow is 11.8152[0m
+[0m[ INFO] [1588133779.966675032, 3.001792359]: I0428 22:16:19.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.061283[0m
+[0m[ INFO] [1588133779.966723455, 3.001792359]: I0428 22:16:19.000000 21044 kidnap_detection.cc:35] weight fast is 15.8019[0m
+[0m[ INFO] [1588133779.966752420, 3.001792359]: I0428 22:16:19.000000 21044 kidnap_detection.cc:36] weight slow is 12.7157[0m
+[0m[ INFO] [1588133780.183369215, 3.213522876]: I0428 22:16:20.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0640839[0m
+[0m[ INFO] [1588133780.183422096, 3.213522876]: I0428 22:16:20.000000 21044 kidnap_detection.cc:35] weight fast is 15.6638[0m
+[0m[ INFO] [1588133780.183454448, 3.213522876]: I0428 22:16:20.000000 21044 kidnap_detection.cc:36] weight slow is 13.2935[0m
+[0m[ INFO] [1588133780.396034399, 3.435608122]: I0428 22:16:20.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0617425[0m
+[0m[ INFO] [1588133780.396062493, 3.435608122]: I0428 22:16:20.000000 21044 kidnap_detection.cc:35] weight fast is 16.0365[0m
+[0m[ INFO] [1588133780.396080117, 3.435608122]: I0428 22:16:20.000000 21044 kidnap_detection.cc:36] weight slow is 13.874[0m
+[0m[ INFO] [1588133780.612998167, 3.647522559]: I0428 22:16:20.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0706733[0m
+[0m[ INFO] [1588133780.613053773, 3.647522559]: I0428 22:16:20.000000 21044 kidnap_detection.cc:35] weight fast is 14.7157[0m
+[0m[ INFO] [1588133780.613101615, 3.647522559]: I0428 22:16:20.000000 21044 kidnap_detection.cc:36] weight slow is 13.9292[0m
+[0m[ INFO] [1588133780.822892149, 3.859094883]: I0428 22:16:20.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0589089[0m
+[0m[ INFO] [1588133780.822919431, 3.859094883]: I0428 22:16:20.000000 21044 kidnap_detection.cc:35] weight fast is 16.2975[0m
+[0m[ INFO] [1588133780.822935272, 3.859094883]: I0428 22:16:20.000000 21044 kidnap_detection.cc:36] weight slow is 14.5384[0m
+[0m[ INFO] [1588133780.968483480, 4.000177377]: I0428 22:16:20.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0597184[0m
+[0m[ INFO] [1588133780.968568733, 4.000177377]: I0428 22:16:20.000000 21044 kidnap_detection.cc:35] weight fast is 16.6109[0m
+[0m[ INFO] [1588133780.968603669, 4.000177377]: I0428 22:16:20.000000 21044 kidnap_detection.cc:36] weight slow is 14.9798[0m
+[0m[ INFO] [1588133781.178890801, 4.211903411]: I0428 22:16:21.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0547844[0m
+[0m[ INFO] [1588133781.178918223, 4.211903411]: I0428 22:16:21.000000 21044 kidnap_detection.cc:35] weight fast is 17.7606[0m
+[0m[ INFO] [1588133781.178935055, 4.211903411]: I0428 22:16:21.000000 21044 kidnap_detection.cc:36] weight slow is 15.6345[0m
+[0m[ INFO] [1588133781.397156826, 4.433515668]: I0428 22:16:21.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0625659[0m
+[0m[ INFO] [1588133781.397183206, 4.433515668]: I0428 22:16:21.000000 21044 kidnap_detection.cc:35] weight fast is 16.5164[0m
+[0m[ INFO] [1588133781.397198365, 4.433515668]: I0428 22:16:21.000000 21044 kidnap_detection.cc:36] weight slow is 15.7042[0m
+[0m[ INFO] [1588133781.612211637, 4.645278962]: I0428 22:16:21.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.066411[0m
+[0m[ INFO] [1588133781.612266251, 4.645278962]: I0428 22:16:21.000000 21044 kidnap_detection.cc:35] weight fast is 15.4953[0m
+[0m[ INFO] [1588133781.612334292, 4.645278962]: I0428 22:16:21.000000 21044 kidnap_detection.cc:36] weight slow is 15.5749[0m
+[0m[ INFO] [1588133781.826301342, 4.857095017]: I0428 22:16:21.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0691313[0m
+[0m[ INFO] [1588133781.826355065, 4.857095017]: I0428 22:16:21.000000 21044 kidnap_detection.cc:35] weight fast is 14.7743[0m
+[0m[ INFO] [1588133781.826405702, 4.857095017]: I0428 22:16:21.000000 21044 kidnap_detection.cc:36] weight slow is 15.353[0m
+[0m[ INFO] [1588133781.967747339, 4.998118125]: I0428 22:16:21.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0743007[0m
+[0m[ INFO] [1588133781.967775423, 4.998118125]: I0428 22:16:21.000000 21044 kidnap_detection.cc:35] weight fast is 13.8535[0m
+[0m[ INFO] [1588133781.967791093, 4.998118125]: I0428 22:16:21.000000 21044 kidnap_detection.cc:36] weight slow is 14.9742[0m
+[0m[ INFO] [1588133782.183942219, 5.220023039]: I0428 22:16:22.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0755725[0m
+[0m[ INFO] [1588133782.184015258, 5.220023039]: I0428 22:16:22.000000 21044 kidnap_detection.cc:35] weight fast is 13.4187[0m
+[0m[ INFO] [1588133782.184069302, 5.220023039]: I0428 22:16:22.000000 21044 kidnap_detection.cc:36] weight slow is 14.6258[0m
+[0m[ INFO] [1588133782.393315566, 5.431796057]: I0428 22:16:22.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0706999[0m
+[0m[ INFO] [1588133782.393342378, 5.431796057]: I0428 22:16:22.000000 21044 kidnap_detection.cc:35] weight fast is 13.9266[0m
+[0m[ INFO] [1588133782.393357527, 5.431796057]: I0428 22:16:22.000000 21044 kidnap_detection.cc:36] weight slow is 14.5295[0m
+[0m[ INFO] [1588133782.610861189, 5.643236981]: I0428 22:16:22.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0775763[0m
+[0m[ INFO] [1588133782.610907557, 5.643236981]: I0428 22:16:22.000000 21044 kidnap_detection.cc:35] weight fast is 13.2014[0m
+[0m[ INFO] [1588133782.610932495, 5.643236981]: I0428 22:16:22.000000 21044 kidnap_detection.cc:36] weight slow is 14.2017[0m
+[0m[ INFO] [1588133782.825404047, 5.864941781]: I0428 22:16:22.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0773762[0m
+[0m[ INFO] [1588133782.825453091, 5.864941781]: I0428 22:16:22.000000 21044 kidnap_detection.cc:35] weight fast is 13.0071[0m
+[0m[ INFO] [1588133782.825522714, 5.864941781]: I0428 22:16:22.000000 21044 kidnap_detection.cc:36] weight slow is 13.9461[0m
+[0m[ INFO] [1588133782.968099832, 6.006262105]: I0428 22:16:22.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.087586[0m
+[0m[ INFO] [1588133782.968152302, 6.006262105]: I0428 22:16:22.000000 21044 kidnap_detection.cc:35] weight fast is 11.8943[0m
+[0m[ INFO] [1588133782.968241563, 6.006262105]: I0428 22:16:22.000000 21044 kidnap_detection.cc:36] weight slow is 13.4404[0m
+[0m[ INFO] [1588133783.180222126, 6.217888469]: I0428 22:16:23.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0739279[0m
+[0m[ INFO] [1588133783.180246402, 6.217888469]: I0428 22:16:23.000000 21044 kidnap_detection.cc:35] weight fast is 13.037[0m
+[0m[ INFO] [1588133783.180259618, 6.217888469]: I0428 22:16:23.000000 21044 kidnap_detection.cc:36] weight slow is 13.4576[0m
+[0m[ INFO] [1588133783.395816061, 6.429873310]: I0428 22:16:23.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0872328[0m
+[0m[ INFO] [1588133783.395885804, 6.429873310]: I0428 22:16:23.000000 21044 kidnap_detection.cc:35] weight fast is 11.9356[0m
+[0m[ INFO] [1588133783.395947442, 6.429873310]: I0428 22:16:23.000000 21044 kidnap_detection.cc:36] weight slow is 13.0588[0m
+[0m[ INFO] [1588133783.613511055, 6.652012246]: I0428 22:16:23.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.078535[0m
+[0m[ INFO] [1588133783.613560609, 6.652012246]: I0428 22:16:23.000000 21044 kidnap_detection.cc:35] weight fast is 12.4939[0m
+[0m[ INFO] [1588133783.613594905, 6.652012246]: I0428 22:16:23.000000 21044 kidnap_detection.cc:36] weight slow is 12.9937[0m
+[0m[ INFO] [1588133783.827789372, 6.863568766]: I0428 22:16:23.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0953369[0m
+[0m[ INFO] [1588133783.827840210, 6.863568766]: I0428 22:16:23.000000 21044 kidnap_detection.cc:35] weight fast is 11.0906[0m
+[0m[ INFO] [1588133783.827874064, 6.863568766]: I0428 22:16:23.000000 21044 kidnap_detection.cc:36] weight slow is 12.4928[0m
+[0m[ INFO] [1588133783.964328687, 6.994737666]: I0428 22:16:23.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.090843[0m
+[0m[ INFO] [1588133783.964356079, 6.994737666]: I0428 22:16:23.000000 21044 kidnap_detection.cc:35] weight fast is 11.0328[0m
+[0m[ INFO] [1588133783.964372731, 6.994737666]: I0428 22:16:23.000000 21044 kidnap_detection.cc:36] weight slow is 12.1958[0m
+[0m[ INFO] [1588133784.182850099, 7.216923469]: I0428 22:16:24.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.094311[0m
+[0m[ INFO] [1588133784.182898371, 7.216923469]: I0428 22:16:24.000000 21044 kidnap_detection.cc:35] weight fast is 10.7321[0m
+[0m[ INFO] [1588133784.182931144, 7.216923469]: I0428 22:16:24.000000 21044 kidnap_detection.cc:36] weight slow is 11.8773[0m
+[0m[ INFO] [1588133784.397957829, 7.428596819]: I0428 22:16:24.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.094962[0m
+[0m[ INFO] [1588133784.398030468, 7.428596819]: I0428 22:16:24.000000 21044 kidnap_detection.cc:35] weight fast is 10.591[0m
+[0m[ INFO] [1588133784.398074191, 7.428596819]: I0428 22:16:24.000000 21044 kidnap_detection.cc:36] weight slow is 11.6079[0m
+[0m[ INFO] [1588133784.611978720, 7.650725962]: I0428 22:16:24.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.078915[0m
+[0m[ INFO] [1588133784.612029818, 7.650725962]: I0428 22:16:24.000000 21044 kidnap_detection.cc:35] weight fast is 12.0476[0m
+[0m[ INFO] [1588133784.612083571, 7.650725962]: I0428 22:16:24.000000 21044 kidnap_detection.cc:36] weight slow is 11.8207[0m
+[0m[ INFO] [1588133784.827737225, 7.862717991]: I0428 22:16:24.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.116182[0m
+[0m[ INFO] [1588133784.827790457, 7.862717991]: I0428 22:16:24.000000 21044 kidnap_detection.cc:35] weight fast is 9.63933[0m
+[0m[ INFO] [1588133784.827853307, 7.862717991]: I0428 22:16:24.000000 21044 kidnap_detection.cc:36] weight slow is 11.178[0m
+[0m[ INFO] [1588133784.968195344, 8.003833468]: I0428 22:16:24.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.146504[0m
+[0m[ INFO] [1588133784.968254057, 8.003833468]: I0428 22:16:24.000000 21044 kidnap_detection.cc:35] weight fast is 7.66983[0m
+[0m[ INFO] [1588133784.968281990, 8.003833468]: I0428 22:16:24.000000 21044 kidnap_detection.cc:36] weight slow is 10.3076[0m
+[0m[ INFO] [1588133785.183600270, 8.215935484]: I0428 22:16:25.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.147409[0m
+[0m[ INFO] [1588133785.183652169, 8.215935484]: I0428 22:16:25.000000 21044 kidnap_detection.cc:35] weight fast is 7.04965[0m
+[0m[ INFO] [1588133785.183687867, 8.215935484]: I0428 22:16:25.000000 21044 kidnap_detection.cc:36] weight slow is 9.60283[0m
+[0m[ INFO] [1588133785.398355532, 8.437597880]: I0428 22:16:25.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0923783[0m
+[0m[ INFO] [1588133785.398406138, 8.437597880]: I0428 22:16:25.000000 21044 kidnap_detection.cc:35] weight fast is 9.69243[0m
+[0m[ INFO] [1588133785.398444061, 8.437597880]: I0428 22:16:25.000000 21044 kidnap_detection.cc:36] weight slow is 9.84728[0m
+[0m[ INFO] [1588133785.399193384, 8.437597880]: I0428 22:16:25.000000 21044 submap_2d.cc:187] Added submap 2[0m
+[0m[ INFO] [1588133785.612578665, 8.649256137]: I0428 22:16:25.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0897551[0m
+[0m[ INFO] [1588133785.612606288, 8.649256137]: I0428 22:16:25.000000 21044 kidnap_detection.cc:35] weight fast is 10.7067[0m
+[0m[ INFO] [1588133785.612623621, 8.649256137]: I0428 22:16:25.000000 21044 kidnap_detection.cc:36] weight slow is 10.1061[0m
+[0m[ INFO] [1588133785.613218289, 8.649256137]: I0428 22:16:25.000000 21142 constraint_builder_2d.cc:281] 0 computations resulted in 0 additional constraints.[0m
+[0m[ INFO] [1588133785.613277352, 8.649256137]: I0428 22:16:25.000000 21142 constraint_builder_2d.cc:283] Score histogram:
+Count: 0[0m
+[0m[ INFO] [1588133785.827178339, 8.861200983]: I0428 22:16:25.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0688943[0m
+[0m[ INFO] [1588133785.827222624, 8.861200983]: I0428 22:16:25.000000 21044 kidnap_detection.cc:35] weight fast is 13.3725[0m
+[0m[ INFO] [1588133785.827254545, 8.861200983]: I0428 22:16:25.000000 21044 kidnap_detection.cc:36] weight slow is 10.9879[0m
+[0m[ INFO] [1588133785.967866296, 9.002211646]: I0428 22:16:25.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0818286[0m
+[0m[ INFO] [1588133785.967911853, 9.002211646]: I0428 22:16:25.000000 21044 kidnap_detection.cc:35] weight fast is 12.5662[0m
+[0m[ INFO] [1588133785.967939135, 9.002211646]: I0428 22:16:25.000000 21044 kidnap_detection.cc:36] weight slow is 11.2344[0m
+[0m[ INFO] [1588133786.182647293, 9.213970161]: I0428 22:16:26.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0892354[0m
+[0m[ INFO] [1588133786.182690566, 9.213970161]: I0428 22:16:26.000000 21044 kidnap_detection.cc:35] weight fast is 11.6143[0m
+[0m[ INFO] [1588133786.182718649, 9.213970161]: I0428 22:16:26.000000 21044 kidnap_detection.cc:36] weight slow is 11.2288[0m
+[0m[ INFO] [1588133786.397934839, 9.436152778]: I0428 22:16:26.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0826818[0m
+[0m[ INFO] [1588133786.397982991, 9.436152778]: I0428 22:16:26.000000 21044 kidnap_detection.cc:35] weight fast is 11.9505[0m
+[0m[ INFO] [1588133786.398014632, 9.436152778]: I0428 22:16:26.000000 21044 kidnap_detection.cc:36] weight slow is 11.402[0m
+[0m[ INFO] [1588133786.611951423, 9.648167934]: I0428 22:16:26.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0896388[0m
+[0m[ INFO] [1588133786.611981340, 9.648167934]: I0428 22:16:26.000000 21044 kidnap_detection.cc:35] weight fast is 11.3943[0m
+[0m[ INFO] [1588133786.611999676, 9.648167934]: I0428 22:16:26.000000 21044 kidnap_detection.cc:36] weight slow is 11.3527[0m
+[0m[ INFO] [1588133786.826916352, 9.859936678]: I0428 22:16:26.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0798642[0m
+[0m[ INFO] [1588133786.826961098, 9.859936678]: I0428 22:16:26.000000 21044 kidnap_detection.cc:35] weight fast is 12.1832[0m
+[0m[ INFO] [1588133786.826994542, 9.859936678]: I0428 22:16:26.000000 21044 kidnap_detection.cc:36] weight slow is 11.5864[0m
+[0m[ INFO] [1588133786.968158846, 10.001490407]: I0428 22:16:26.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0842425[0m
+[0m[ INFO] [1588133786.968203231, 10.001490407]: I0428 22:16:26.000000 21044 kidnap_detection.cc:35] weight fast is 11.9643[0m
+[0m[ INFO] [1588133786.968233710, 10.001490407]: I0428 22:16:26.000000 21044 kidnap_detection.cc:36] weight slow is 11.6433[0m
+[0m[ INFO] [1588133787.181494705, 10.213294436]: I0428 22:16:27.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0971037[0m
+[0m[ INFO] [1588133787.181538579, 10.213294436]: I0428 22:16:27.000000 21044 kidnap_detection.cc:35] weight fast is 10.7981[0m
+[0m[ INFO] [1588133787.181566703, 10.213294436]: I0428 22:16:27.000000 21044 kidnap_detection.cc:36] weight slow is 11.3743[0m
+[0m[ INFO] [1588133787.396533120, 10.435314197]: I0428 22:16:27.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.070396[0m
+[0m[ INFO] [1588133787.396577205, 10.435314197]: I0428 22:16:27.000000 21044 kidnap_detection.cc:35] weight fast is 13.1832[0m
+[0m[ INFO] [1588133787.396610358, 10.435314197]: I0428 22:16:27.000000 21044 kidnap_detection.cc:36] weight slow is 11.9405[0m
+[0m[ INFO] [1588133787.610783839, 10.647334809]: I0428 22:16:27.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0886434[0m
+[0m[ INFO] [1588133787.610832572, 10.647334809]: I0428 22:16:27.000000 21044 kidnap_detection.cc:35] weight fast is 11.8518[0m
+[0m[ INFO] [1588133787.610864223, 10.647334809]: I0428 22:16:27.000000 21044 kidnap_detection.cc:36] weight slow is 11.8086[0m
+[0m[ INFO] [1588133787.825692075, 10.858962279]: I0428 22:16:27.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.10496[0m
+[0m[ INFO] [1588133787.825740668, 10.858962279]: I0428 22:16:27.000000 21044 kidnap_detection.cc:35] weight fast is 10.2248[0m
+[0m[ INFO] [1588133787.825772138, 10.858962279]: I0428 22:16:27.000000 21044 kidnap_detection.cc:36] weight slow is 11.3524[0m
+[0m[ INFO] [1588133787.966754713, 11.000374185]: I0428 22:16:27.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0871574[0m
+[0m[ INFO] [1588133787.966797565, 11.000374185]: I0428 22:16:27.000000 21044 kidnap_detection.cc:35] weight fast is 11.0989[0m
+[0m[ INFO] [1588133787.966825358, 11.000374185]: I0428 22:16:27.000000 21044 kidnap_detection.cc:36] weight slow is 11.3766[0m
+[0m[ INFO] [1588133788.181998416, 11.212405603]: I0428 22:16:28.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0944589[0m
+[0m[ INFO] [1588133788.182048402, 11.212405603]: I0428 22:16:28.000000 21044 kidnap_detection.cc:35] weight fast is 10.7403[0m
+[0m[ INFO] [1588133788.182094480, 11.212405603]: I0428 22:16:28.000000 21044 kidnap_detection.cc:36] weight slow is 11.2186[0m
+[0m[ INFO] [1588133788.395689200, 11.434399891]: I0428 22:16:28.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.10712[0m
+[0m[ INFO] [1588133788.395719057, 11.434399891]: I0428 22:16:28.000000 21044 kidnap_detection.cc:35] weight fast is 9.75683[0m
+[0m[ INFO] [1588133788.395737602, 11.434399891]: I0428 22:16:28.000000 21044 kidnap_detection.cc:36] weight slow is 10.842[0m
+[0m[ INFO] [1588133788.610259785, 11.646502516]: I0428 22:16:28.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.113678[0m
+[0m[ INFO] [1588133788.610304421, 11.646502516]: I0428 22:16:28.000000 21044 kidnap_detection.cc:35] weight fast is 9.0848[0m
+[0m[ INFO] [1588133788.610345559, 11.646502516]: I0428 22:16:28.000000 21044 kidnap_detection.cc:36] weight slow is 10.4329[0m
+[0m[ INFO] [1588133788.825963920, 11.858296551]: I0428 22:16:28.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0992175[0m
+[0m[ INFO] [1588133788.826010449, 11.858296551]: I0428 22:16:28.000000 21044 kidnap_detection.cc:35] weight fast is 9.78065[0m
+[0m[ INFO] [1588133788.826038784, 11.858296551]: I0428 22:16:28.000000 21044 kidnap_detection.cc:36] weight slow is 10.3621[0m
+[0m[ INFO] [1588133788.966427860, 11.999644261]: I0428 22:16:28.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.106965[0m
+[0m[ INFO] [1588133788.966473286, 11.999644261]: I0428 22:16:28.000000 21044 kidnap_detection.cc:35] weight fast is 9.47838[0m
+[0m[ INFO] [1588133788.966501791, 11.999644261]: I0428 22:16:28.000000 21044 kidnap_detection.cc:36] weight slow is 10.1595[0m
+[0m[ INFO] [1588133789.181363220, 12.212146537]: I0428 22:16:29.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0863437[0m
+[0m[ INFO] [1588133789.181408937, 12.212146537]: I0428 22:16:29.000000 21044 kidnap_detection.cc:35] weight fast is 10.9507[0m
+[0m[ INFO] [1588133789.181436520, 12.212146537]: I0428 22:16:29.000000 21044 kidnap_detection.cc:36] weight slow is 10.4439[0m
+[0m[ INFO] [1588133789.395924815, 12.433989301]: I0428 22:16:29.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.101972[0m
+[0m[ INFO] [1588133789.395970422, 12.433989301]: I0428 22:16:29.000000 21044 kidnap_detection.cc:35] weight fast is 10.1498[0m
+[0m[ INFO] [1588133789.395998135, 12.433989301]: I0428 22:16:29.000000 21044 kidnap_detection.cc:36] weight slow is 10.3164[0m
+[0m[ INFO] [1588133789.611284446, 12.646131948]: I0428 22:16:29.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0777376[0m
+[0m[ INFO] [1588133789.611329462, 12.646131948]: I0428 22:16:29.000000 21044 kidnap_detection.cc:35] weight fast is 12.0496[0m
+[0m[ INFO] [1588133789.611356905, 12.646131948]: I0428 22:16:29.000000 21044 kidnap_detection.cc:36] weight slow is 10.8259[0m
+[0m[ INFO] [1588133789.827018885, 12.857997816]: I0428 22:16:29.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0895374[0m
+[0m[ INFO] [1588133789.827067729, 12.857997816]: I0428 22:16:29.000000 21044 kidnap_detection.cc:35] weight fast is 11.4328[0m
+[0m[ INFO] [1588133789.827099379, 12.857997816]: I0428 22:16:29.000000 21044 kidnap_detection.cc:36] weight slow is 10.8944[0m
+[0m[ INFO] [1588133789.966217280, 12.999229291]: I0428 22:16:29.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0671579[0m
+[0m[ INFO] [1588133789.966261976, 12.999229291]: I0428 22:16:29.000000 21044 kidnap_detection.cc:35] weight fast is 13.8531[0m
+[0m[ INFO] [1588133789.966290330, 12.999229291]: I0428 22:16:29.000000 21044 kidnap_detection.cc:36] weight slow is 11.6936[0m
+[0m[ INFO] [1588133790.181449766, 13.221118029]: I0428 22:16:30.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0946152[0m
+[0m[ INFO] [1588133790.181495212, 13.221118029]: I0428 22:16:30.000000 21044 kidnap_detection.cc:35] weight fast is 11.5543[0m
+[0m[ INFO] [1588133790.181527384, 13.221118029]: I0428 22:16:30.000000 21044 kidnap_detection.cc:36] weight slow is 11.4687[0m
+[0m[ INFO] [1588133790.396592378, 13.432883791]: I0428 22:16:30.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.113053[0m
+[0m[ INFO] [1588133790.396642343, 13.432883791]: I0428 22:16:30.000000 21044 kidnap_detection.cc:35] weight fast is 9.65808[0m
+[0m[ INFO] [1588133790.396674335, 13.432883791]: I0428 22:16:30.000000 21044 kidnap_detection.cc:36] weight slow is 10.944[0m
+[0m[ INFO] [1588133790.611004382, 13.644393925]: I0428 22:16:30.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.115816[0m
+[0m[ INFO] [1588133790.611054508, 13.644393925]: I0428 22:16:30.000000 21044 kidnap_detection.cc:35] weight fast is 8.94147[0m
+[0m[ INFO] [1588133790.611086299, 13.644393925]: I0428 22:16:30.000000 21044 kidnap_detection.cc:36] weight slow is 10.4821[0m
+[0m[ INFO] [1588133790.825035138, 13.856278525]: I0428 22:16:30.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0820943[0m
+[0m[ INFO] [1588133790.825080975, 13.856278525]: I0428 22:16:30.000000 21044 kidnap_detection.cc:35] weight fast is 11.2092[0m
+[0m[ INFO] [1588133790.825117014, 13.856278525]: I0428 22:16:30.000000 21044 kidnap_detection.cc:36] weight slow is 10.8219[0m
+[0m[ INFO] [1588133790.967673431, 13.997580411]: I0428 22:16:30.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0963977[0m
+[0m[ INFO] [1588133790.967735470, 13.997580411]: I0428 22:16:30.000000 21044 kidnap_detection.cc:35] weight fast is 10.6244[0m
+[0m[ INFO] [1588133790.967783522, 13.997580411]: I0428 22:16:30.000000 21044 kidnap_detection.cc:36] weight slow is 10.7323[0m
+[0m[ INFO] [1588133791.181058077, 14.219239967]: I0428 22:16:31.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.113376[0m
+[0m[ INFO] [1588133791.181112561, 14.219239967]: I0428 22:16:31.000000 21044 kidnap_detection.cc:35] weight fast is 9.36144[0m
+[0m[ INFO] [1588133791.181155623, 14.219239967]: I0428 22:16:31.000000 21044 kidnap_detection.cc:36] weight slow is 10.3498[0m
+[0m[ INFO] [1588133791.396302920, 14.431113802]: I0428 22:16:31.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.117809[0m
+[0m[ INFO] [1588133791.396356914, 14.431113802]: I0428 22:16:31.000000 21044 kidnap_detection.cc:35] weight fast is 8.75027[0m
+[0m[ INFO] [1588133791.396397992, 14.431113802]: I0428 22:16:31.000000 21044 kidnap_detection.cc:36] weight slow is 9.97755[0m
+[0m[ INFO] [1588133791.608272579, 14.643111975]: I0428 22:16:31.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0883798[0m
+[0m[ INFO] [1588133791.608300743, 14.643111975]: I0428 22:16:31.000000 21044 kidnap_detection.cc:35] weight fast is 10.5454[0m
+[0m[ INFO] [1588133791.608316593, 14.643111975]: I0428 22:16:31.000000 21044 kidnap_detection.cc:36] weight slow is 10.245[0m
+[0m[ INFO] [1588133791.826412160, 14.864957185]: I0428 22:16:31.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0953269[0m
+[0m[ INFO] [1588133791.826461935, 14.864957185]: I0428 22:16:31.000000 21044 kidnap_detection.cc:35] weight fast is 10.5068[0m
+[0m[ INFO] [1588133791.826501451, 14.864957185]: I0428 22:16:31.000000 21044 kidnap_detection.cc:36] weight slow is 10.294[0m
+[0m[ INFO] [1588133791.960403490, 14.996419246]: I0428 22:16:31.000000 21044 collated_trajectory_builder.cc:72] scan rate: 5.00 Hz 2.00e-01 s +/- 2.98e-02 s (pulsed at 100.00% real time)[0m
+[0m[ INFO] [1588133791.966715584, 15.006492175]: I0428 22:16:31.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0923918[0m
+[0m[ INFO] [1588133791.966755861, 15.006492175]: I0428 22:16:31.000000 21044 kidnap_detection.cc:35] weight fast is 10.7285[0m
+[0m[ INFO] [1588133791.966790507, 15.006492175]: I0428 22:16:31.000000 21044 kidnap_detection.cc:36] weight slow is 10.3999[0m
+[0m[ INFO] [1588133792.182631628, 15.218883707]: I0428 22:16:32.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.101318[0m
+[0m[ INFO] [1588133792.182681885, 15.218883707]: I0428 22:16:32.000000 21044 kidnap_detection.cc:35] weight fast is 10.1275[0m
+[0m[ INFO] [1588133792.182723053, 15.218883707]: I0428 22:16:32.000000 21044 kidnap_detection.cc:36] weight slow is 10.2939[0m
+[0m[ INFO] [1588133792.397491181, 15.431174526]: I0428 22:16:32.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.113231[0m
+[0m[ INFO] [1588133792.397543371, 15.431174526]: I0428 22:16:32.000000 21044 kidnap_detection.cc:35] weight fast is 9.22031[0m
+[0m[ INFO] [1588133792.397578378, 15.431174526]: I0428 22:16:32.000000 21044 kidnap_detection.cc:36] weight slow is 10.0014[0m
+[0m[ INFO] [1588133792.611414132, 15.642711513]: I0428 22:16:32.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0926168[0m
+[0m[ INFO] [1588133792.611461633, 15.642711513]: I0428 22:16:32.000000 21044 kidnap_detection.cc:35] weight fast is 10.3241[0m
+[0m[ INFO] [1588133792.611496209, 15.642711513]: I0428 22:16:32.000000 21044 kidnap_detection.cc:36] weight slow is 10.1606[0m
+[0m[ INFO] [1588133792.826548540, 15.864844509]: I0428 22:16:32.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.102883[0m
+[0m[ INFO] [1588133792.826600229, 15.864844509]: I0428 22:16:32.000000 21044 kidnap_detection.cc:35] weight fast is 9.9011[0m
+[0m[ INFO] [1588133792.826673089, 15.864844509]: I0428 22:16:32.000000 21044 kidnap_detection.cc:36] weight slow is 10.0724[0m
+[0m[ INFO] [1588133792.967106198, 16.006224350]: I0428 22:16:32.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.129482[0m
+[0m[ INFO] [1588133792.967138400, 16.006224350]: I0428 22:16:32.000000 21044 kidnap_detection.cc:35] weight fast is 8.3765[0m
+[0m[ INFO] [1588133792.967156925, 16.006224350]: I0428 22:16:32.000000 21044 kidnap_detection.cc:36] weight slow is 9.60257[0m
+[0m[ INFO] [1588133793.181975466, 16.217980072]: I0428 22:16:33.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.115559[0m
+[0m[ INFO] [1588133793.182024059, 16.217980072]: I0428 22:16:33.000000 21044 kidnap_detection.cc:35] weight fast is 8.57046[0m
+[0m[ INFO] [1588133793.182100024, 16.217980072]: I0428 22:16:33.000000 21044 kidnap_detection.cc:36] weight slow is 9.41277[0m
+[0m[ INFO] [1588133793.397880996, 16.429661932]: I0428 22:16:33.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.084627[0m
+[0m[ INFO] [1588133793.397932364, 16.429661932]: I0428 22:16:33.000000 21044 kidnap_detection.cc:35] weight fast is 10.8427[0m
+[0m[ INFO] [1588133793.397964065, 16.429661932]: I0428 22:16:33.000000 21044 kidnap_detection.cc:36] weight slow is 9.89353[0m
+[0m[ INFO] [1588133793.611792140, 16.641867874]: I0428 22:16:33.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.101725[0m
+[0m[ INFO] [1588133793.611849720, 16.641867874]: I0428 22:16:33.000000 21044 kidnap_detection.cc:35] weight fast is 10.1341[0m
+[0m[ INFO] [1588133793.611887001, 16.641867874]: I0428 22:16:33.000000 21044 kidnap_detection.cc:36] weight slow is 9.8809[0m
+[0m[ INFO] [1588133793.826210866, 16.863676315]: I0428 22:16:33.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.109285[0m
+[0m[ INFO] [1588133793.826256132, 16.863676315]: I0428 22:16:33.000000 21044 kidnap_detection.cc:35] weight fast is 9.44551[0m
+[0m[ INFO] [1588133793.826284266, 16.863676315]: I0428 22:16:33.000000 21044 kidnap_detection.cc:36] weight slow is 9.7348[0m
+[0m[ INFO] [1588133793.966889522, 17.004846001]: I0428 22:16:33.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0993822[0m
+[0m[ INFO] [1588133793.966935049, 17.004846001]: I0428 22:16:33.000000 21044 kidnap_detection.cc:35] weight fast is 9.87717[0m
+[0m[ INFO] [1588133793.966966780, 17.004846001]: I0428 22:16:33.000000 21044 kidnap_detection.cc:36] weight slow is 9.80028[0m
+[0m[ INFO] [1588133794.182016188, 17.216873619]: I0428 22:16:34.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.080918[0m
+[0m[ INFO] [1588133794.182062577, 17.216873619]: I0428 22:16:34.000000 21044 kidnap_detection.cc:35] weight fast is 11.6139[0m
+[0m[ INFO] [1588133794.182090911, 17.216873619]: I0428 22:16:34.000000 21044 kidnap_detection.cc:36] weight slow is 10.3119[0m
+[0m[ INFO] [1588133794.397328348, 17.428486152]: I0428 22:16:34.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0912641[0m
+[0m[ INFO] [1588133794.397379126, 17.428486152]: I0428 22:16:34.000000 21044 kidnap_detection.cc:35] weight fast is 11.1542[0m
+[0m[ INFO] [1588133794.397410145, 17.428486152]: I0428 22:16:34.000000 21044 kidnap_detection.cc:36] weight slow is 10.4409[0m
+[0m[ INFO] [1588133794.612169347, 17.650545930]: I0428 22:16:34.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0931492[0m
+[0m[ INFO] [1588133794.612219102, 17.650545930]: I0428 22:16:34.000000 21044 kidnap_detection.cc:35] weight fast is 10.8611[0m
+[0m[ INFO] [1588133794.612253258, 17.650545930]: I0428 22:16:34.000000 21044 kidnap_detection.cc:36] weight slow is 10.4998[0m
+[0m[ INFO] [1588133794.826863886, 17.862458698]: I0428 22:16:34.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.107902[0m
+[0m[ INFO] [1588133794.826945592, 17.862458698]: I0428 22:16:34.000000 21044 kidnap_detection.cc:35] weight fast is 9.74571[0m
+[0m[ INFO] [1588133794.826996399, 17.862458698]: I0428 22:16:34.000000 21044 kidnap_detection.cc:36] weight slow is 10.2534[0m
+[0m[ INFO] [1588133794.966239027, 18.003600297]: I0428 22:16:34.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.133222[0m
+[0m[ INFO] [1588133794.966289804, 18.003600297]: I0428 22:16:34.000000 21044 kidnap_detection.cc:35] weight fast is 8.1781[0m
+[0m[ INFO] [1588133794.966322646, 18.003600297]: I0428 22:16:34.000000 21044 kidnap_detection.cc:36] weight slow is 9.70398[0m
+[0m[ INFO] [1588133795.181217074, 18.215869603]: I0428 22:16:35.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0910623[0m
+[0m[ INFO] [1588133795.181268262, 18.215869603]: I0428 22:16:35.000000 21044 kidnap_detection.cc:35] weight fast is 10.1405[0m
+[0m[ INFO] [1588133795.181304341, 18.215869603]: I0428 22:16:35.000000 21044 kidnap_detection.cc:36] weight slow is 9.95948[0m
+[0m[ INFO] [1588133795.395545679, 18.427639995]: I0428 22:16:35.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.103348[0m
+[0m[ INFO] [1588133795.395592198, 18.427639995]: I0428 22:16:35.000000 21044 kidnap_detection.cc:35] weight fast is 9.8154[0m
+[0m[ INFO] [1588133795.395620051, 18.427639995]: I0428 22:16:35.000000 21044 kidnap_detection.cc:36] weight slow is 9.9028[0m
+[0m[ INFO] [1588133795.610194747, 18.649757479]: I0428 22:16:35.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.104023[0m
+[0m[ INFO] [1588133795.610242709, 18.649757479]: I0428 22:16:35.000000 21044 kidnap_detection.cc:35] weight fast is 9.67388[0m
+[0m[ INFO] [1588133795.610276173, 18.649757479]: I0428 22:16:35.000000 21044 kidnap_detection.cc:36] weight slow is 9.84489[0m
+[0m[ INFO] [1588133795.825561888, 18.861711320]: I0428 22:16:35.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.10719[0m
+[0m[ INFO] [1588133795.825607365, 18.861711320]: I0428 22:16:35.000000 21044 kidnap_detection.cc:35] weight fast is 9.4326[0m
+[0m[ INFO] [1588133795.825635498, 18.861711320]: I0428 22:16:35.000000 21044 kidnap_detection.cc:36] weight slow is 9.74175[0m
+[0m[ INFO] [1588133795.966576061, 19.003036989]: I0428 22:16:35.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.084922[0m
+[0m[ INFO] [1588133795.966621237, 19.003036989]: I0428 22:16:35.000000 21044 kidnap_detection.cc:35] weight fast is 11.0726[0m
+[0m[ INFO] [1588133795.966649872, 19.003036989]: I0428 22:16:35.000000 21044 kidnap_detection.cc:36] weight slow is 10.1485[0m
+[0m[ INFO] [1588133796.182080331, 19.214885336]: I0428 22:16:36.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0887412[0m
+[0m[ INFO] [1588133796.182138833, 19.214885336]: I0428 22:16:36.000000 21044 kidnap_detection.cc:35] weight fast is 11.2099[0m
+[0m[ INFO] [1588133796.182186324, 19.214885336]: I0428 22:16:36.000000 21044 kidnap_detection.cc:36] weight slow is 10.3725[0m
+[0m[ INFO] [1588133796.395319297, 19.426968502]: I0428 22:16:36.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.095144[0m
+[0m[ INFO] [1588133796.395364935, 19.426968502]: I0428 22:16:36.000000 21044 kidnap_detection.cc:35] weight fast is 10.7202[0m
+[0m[ INFO] [1588133796.395393469, 19.426968502]: I0428 22:16:36.000000 21044 kidnap_detection.cc:36] weight slow is 10.4001[0m
+[0m[ INFO] [1588133796.610985898, 19.648470134]: I0428 22:16:36.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0765921[0m
+[0m[ INFO] [1588133796.611035693, 19.648470134]: I0428 22:16:36.000000 21044 kidnap_detection.cc:35] weight fast is 12.3554[0m
+[0m[ INFO] [1588133796.611075549, 19.648470134]: I0428 22:16:36.000000 21044 kidnap_detection.cc:36] weight slow is 10.9313[0m
+[0m[ INFO] [1588133796.825656623, 19.860303411]: I0428 22:16:36.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0900192[0m
+[0m[ INFO] [1588133796.825701799, 19.860303411]: I0428 22:16:36.000000 21044 kidnap_detection.cc:35] weight fast is 11.4827[0m
+[0m[ INFO] [1588133796.825729653, 19.860303411]: I0428 22:16:36.000000 21044 kidnap_detection.cc:36] weight slow is 10.9668[0m
+[0m[ INFO] [1588133796.966434050, 20.001993254]: I0428 22:16:36.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.10748[0m
+[0m[ INFO] [1588133796.966477934, 20.001993254]: I0428 22:16:36.000000 21044 kidnap_detection.cc:35] weight fast is 9.95768[0m
+[0m[ INFO] [1588133796.966506789, 20.001993254]: I0428 22:16:36.000000 21044 kidnap_detection.cc:36] weight slow is 10.6343[0m
+[0m[ INFO] [1588133797.180597842, 20.213971255]: I0428 22:16:37.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.107652[0m
+[0m[ INFO] [1588133797.180641005, 20.213971255]: I0428 22:16:37.000000 21044 kidnap_detection.cc:35] weight fast is 9.48975[0m
+[0m[ INFO] [1588133797.180669710, 20.213971255]: I0428 22:16:37.000000 21044 kidnap_detection.cc:36] weight slow is 10.3653[0m
+[0m[ INFO] [1588133797.396664273, 20.436258024]: I0428 22:16:37.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0728662[0m
+[0m[ INFO] [1588133797.396716403, 20.436258024]: I0428 22:16:37.000000 21044 kidnap_detection.cc:35] weight fast is 12.4536[0m
+[0m[ INFO] [1588133797.396757762, 20.436258024]: I0428 22:16:37.000000 21044 kidnap_detection.cc:36] weight slow is 11.037[0m
+[0m[ INFO] [1588133797.610952102, 20.647882348]: I0428 22:16:37.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0768489[0m
+[0m[ INFO] [1588133797.611002137, 20.647882348]: I0428 22:16:37.000000 21044 kidnap_detection.cc:35] weight fast is 12.8449[0m
+[0m[ INFO] [1588133797.611037205, 20.647882348]: I0428 22:16:37.000000 21044 kidnap_detection.cc:36] weight slow is 11.4321[0m
+[0m[ INFO] [1588133797.825948155, 20.859836332]: I0428 22:16:37.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0877145[0m
+[0m[ INFO] [1588133797.826011777, 20.859836332]: I0428 22:16:37.000000 21044 kidnap_detection.cc:35] weight fast is 11.8339[0m
+[0m[ INFO] [1588133797.826060871, 20.859836332]: I0428 22:16:37.000000 21044 kidnap_detection.cc:36] weight slow is 11.4258[0m
+[0m[ INFO] [1588133797.963385561, 21.001142860]: I0428 22:16:37.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.103038[0m
+[0m[ INFO] [1588133797.963417963, 21.001142860]: I0428 22:16:37.000000 21044 kidnap_detection.cc:35] weight fast is 10.3438[0m
+[0m[ INFO] [1588133797.963443612, 21.001142860]: I0428 22:16:37.000000 21044 kidnap_detection.cc:36] weight slow is 11.0817[0m
+[0m[ INFO] [1588133798.181316685, 21.213305670]: I0428 22:16:38.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.105354[0m
+[0m[ INFO] [1588133798.181371490, 21.213305670]: I0428 22:16:38.000000 21044 kidnap_detection.cc:35] weight fast is 9.74743[0m
+[0m[ INFO] [1588133798.181413851, 21.213305670]: I0428 22:16:38.000000 21044 kidnap_detection.cc:36] weight slow is 10.7637[0m
+[0m[ INFO] [1588133798.396205078, 21.435481302]: I0428 22:16:38.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0807292[0m
+[0m[ INFO] [1588133798.396241638, 21.435481302]: I0428 22:16:38.000000 21044 kidnap_detection.cc:35] weight fast is 11.5952[0m
+[0m[ INFO] [1588133798.396258801, 21.435481302]: I0428 22:16:38.000000 21044 kidnap_detection.cc:36] weight slow is 11.0884[0m
+[0m[ INFO] [1588133798.610366120, 21.647284023]: I0428 22:16:38.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0900333[0m
+[0m[ INFO] [1588133798.610398112, 21.647284023]: I0428 22:16:38.000000 21044 kidnap_detection.cc:35] weight fast is 11.2535[0m
+[0m[ INFO] [1588133798.610416827, 21.647284023]: I0428 22:16:38.000000 21044 kidnap_detection.cc:36] weight slow is 11.0921[0m
+[0m[ INFO] [1588133798.824753415, 21.859154724]: I0428 22:16:38.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0982134[0m
+[0m[ INFO] [1588133798.824799784, 21.859154724]: I0428 22:16:38.000000 21044 kidnap_detection.cc:35] weight fast is 10.5034[0m
+[0m[ INFO] [1588133798.824828469, 21.859154724]: I0428 22:16:38.000000 21044 kidnap_detection.cc:36] weight slow is 10.9101[0m
+[0m[ INFO] [1588133798.965274607, 22.000612528]: I0428 22:16:38.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.107538[0m
+[0m[ INFO] [1588133798.965319222, 22.000612528]: I0428 22:16:38.000000 21044 kidnap_detection.cc:35] weight fast is 9.66033[0m
+[0m[ INFO] [1588133798.965354480, 22.000612528]: I0428 22:16:38.000000 21044 kidnap_detection.cc:36] weight slow is 10.5879[0m
+[0m[ INFO] [1588133799.180835734, 22.212433360]: I0428 22:16:39.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.120401[0m
+[0m[ INFO] [1588133799.180888375, 22.212433360]: I0428 22:16:39.000000 21044 kidnap_detection.cc:35] weight fast is 8.712[0m
+[0m[ INFO] [1588133799.180927229, 22.212433360]: I0428 22:16:39.000000 21044 kidnap_detection.cc:36] weight slow is 10.1314[0m
+[0m[ INFO] [1588133799.395935187, 22.434287815]: I0428 22:16:39.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0879038[0m
+[0m[ INFO] [1588133799.395967840, 22.434287815]: I0428 22:16:39.000000 21044 kidnap_detection.cc:35] weight fast is 10.5769[0m
+[0m[ INFO] [1588133799.395993058, 22.434287815]: I0428 22:16:39.000000 21044 kidnap_detection.cc:36] weight slow is 10.3803[0m
+[0m[ INFO] [1588133799.611317632, 22.646768799]: I0428 22:16:39.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0943419[0m
+[0m[ INFO] [1588133799.611398136, 22.646768799]: I0428 22:16:39.000000 21044 kidnap_detection.cc:35] weight fast is 10.5929[0m
+[0m[ INFO] [1588133799.611465474, 22.646768799]: I0428 22:16:39.000000 21044 kidnap_detection.cc:36] weight slow is 10.4242[0m
+[0m[ INFO] [1588133799.825444434, 22.858924742]: I0428 22:16:39.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.105687[0m
+[0m[ INFO] [1588133799.825492286, 22.858924742]: I0428 22:16:39.000000 21044 kidnap_detection.cc:35] weight fast is 9.80119[0m
+[0m[ INFO] [1588133799.825522413, 22.858924742]: I0428 22:16:39.000000 21044 kidnap_detection.cc:36] weight slow is 10.2318[0m
+[0m[ INFO] [1588133799.966723142, 23.000161390]: I0428 22:16:39.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0862869[0m
+[0m[ INFO] [1588133799.966769481, 23.000161390]: I0428 22:16:39.000000 21044 kidnap_detection.cc:35] weight fast is 11.0528[0m
+[0m[ INFO] [1588133799.966797565, 23.000161390]: I0428 22:16:39.000000 21044 kidnap_detection.cc:36] weight slow is 10.5032[0m
+[0m[ INFO] [1588133800.181293190, 23.212247105]: I0428 22:16:40.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0851863[0m
+[0m[ INFO] [1588133800.181344878, 23.212247105]: I0428 22:16:40.000000 21044 kidnap_detection.cc:35] weight fast is 11.5331[0m
+[0m[ INFO] [1588133800.181376048, 23.212247105]: I0428 22:16:40.000000 21044 kidnap_detection.cc:36] weight slow is 10.7504[0m
+[0m[ INFO] [1588133800.396167859, 23.434057480]: I0428 22:16:40.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.092655[0m
+[0m[ INFO] [1588133800.396216452, 23.434057480]: I0428 22:16:40.000000 21044 kidnap_detection.cc:35] weight fast is 11.0148[0m
+[0m[ INFO] [1588133800.396245267, 23.434057480]: I0428 22:16:40.000000 21044 kidnap_detection.cc:36] weight slow is 10.7589[0m
+[0m[ INFO] [1588133800.611914827, 23.645968300]: I0428 22:16:40.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.11487[0m
+[0m[ INFO] [1588133800.611945265, 23.645968300]: I0428 22:16:40.000000 21044 kidnap_detection.cc:35] weight fast is 9.3983[0m
+[0m[ INFO] [1588133800.611964562, 23.645968300]: I0428 22:16:40.000000 21044 kidnap_detection.cc:36] weight slow is 10.3482[0m
+[0m[ INFO] [1588133800.828900944, 23.867922902]: I0428 22:16:40.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0877267[0m
+[0m[ INFO] [1588133800.828928246, 23.867922902]: I0428 22:16:40.000000 21044 kidnap_detection.cc:35] weight fast is 10.7988[0m
+[0m[ INFO] [1588133800.828944027, 23.867922902]: I0428 22:16:40.000000 21044 kidnap_detection.cc:36] weight slow is 10.5584[0m
+[0m[ INFO] [1588133800.967322405, 23.998952533]: I0428 22:16:40.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0941392[0m
+[0m[ INFO] [1588133800.967353555, 23.998952533]: I0428 22:16:40.000000 21044 kidnap_detection.cc:35] weight fast is 10.6754[0m
+[0m[ INFO] [1588133800.967372270, 23.998952533]: I0428 22:16:40.000000 21044 kidnap_detection.cc:36] weight slow is 10.5712[0m
+[0m[ INFO] [1588133801.181720790, 24.220824473]: I0428 22:16:41.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0993826[0m
+[0m[ INFO] [1588133801.181763411, 24.220824473]: I0428 22:16:41.000000 21044 kidnap_detection.cc:35] weight fast is 10.2461[0m
+[0m[ INFO] [1588133801.181791685, 24.220824473]: I0428 22:16:41.000000 21044 kidnap_detection.cc:36] weight slow is 10.4694[0m
+[0m[ INFO] [1588133801.396746273, 24.432543543]: I0428 22:16:41.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0870569[0m
+[0m[ INFO] [1588133801.396792301, 24.432543543]: I0428 22:16:41.000000 21044 kidnap_detection.cc:35] weight fast is 11.1146[0m
+[0m[ INFO] [1588133801.396820846, 24.432543543]: I0428 22:16:41.000000 21044 kidnap_detection.cc:36] weight slow is 10.6729[0m
+[0m[ INFO] [1588133801.612669324, 24.644479086]: I0428 22:16:41.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0932964[0m
+[0m[ INFO] [1588133801.612722826, 24.644479086]: I0428 22:16:41.000000 21044 kidnap_detection.cc:35] weight fast is 10.8373[0m
+[0m[ INFO] [1588133801.612761901, 24.644479086]: I0428 22:16:41.000000 21044 kidnap_detection.cc:36] weight slow is 10.682[0m
+[0m[ INFO] [1588133801.826045672, 24.856238612]: I0428 22:16:41.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0845959[0m
+[0m[ INFO] [1588133801.826092702, 24.856238612]: I0428 22:16:41.000000 21044 kidnap_detection.cc:35] weight fast is 11.5258[0m
+[0m[ INFO] [1588133801.826121938, 24.856238612]: I0428 22:16:41.000000 21044 kidnap_detection.cc:36] weight slow is 10.9098[0m
+[0m[ INFO] [1588133801.967016357, 24.997420019]: I0428 22:16:41.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0892985[0m
+[0m[ INFO] [1588133801.967062335, 24.997420019]: I0428 22:16:41.000000 21044 kidnap_detection.cc:35] weight fast is 11.2966[0m
+[0m[ INFO] [1588133801.967090288, 24.997420019]: I0428 22:16:41.000000 21044 kidnap_detection.cc:36] weight slow is 10.9675[0m
+[0m[ INFO] [1588133802.181472037, 25.218995859]: I0428 22:16:42.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.086491[0m
+[0m[ INFO] [1588133802.181516502, 25.218995859]: I0428 22:16:42.000000 21044 kidnap_detection.cc:35] weight fast is 11.4823[0m
+[0m[ INFO] [1588133802.181572950, 25.218995859]: I0428 22:16:42.000000 21044 kidnap_detection.cc:36] weight slow is 11.0864[0m
+[0m[ INFO] [1588133802.395957333, 25.431016441]: I0428 22:16:42.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0897513[0m
+[0m[ INFO] [1588133802.395982892, 25.431016441]: I0428 22:16:42.000000 21044 kidnap_detection.cc:35] weight fast is 11.244[0m
+[0m[ INFO] [1588133802.395998602, 25.431016441]: I0428 22:16:42.000000 21044 kidnap_detection.cc:36] weight slow is 11.0975[0m
+[0m[ INFO] [1588133802.611674396, 25.642908427]: I0428 22:16:42.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0960996[0m
+[0m[ INFO] [1588133802.611705405, 25.642908427]: I0428 22:16:42.000000 21044 kidnap_detection.cc:35] weight fast is 10.6573[0m
+[0m[ INFO] [1588133802.611724151, 25.642908427]: I0428 22:16:42.000000 21044 kidnap_detection.cc:36] weight slow is 10.9592[0m
+[0m[ INFO] [1588133802.826917451, 25.864777056]: I0428 22:16:42.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.087187[0m
+[0m[ INFO] [1588133802.826977907, 25.864777056]: I0428 22:16:42.000000 21044 kidnap_detection.cc:35] weight fast is 11.2259[0m
+[0m[ INFO] [1588133802.827031740, 25.864777056]: I0428 22:16:42.000000 21044 kidnap_detection.cc:36] weight slow is 11.0612[0m
+[0m[ INFO] [1588133802.967701836, 26.006035908]: I0428 22:16:42.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0833382[0m
+[0m[ INFO] [1588133802.967782962, 26.006035908]: I0428 22:16:42.000000 21044 kidnap_detection.cc:35] weight fast is 11.7673[0m
+[0m[ INFO] [1588133802.967835682, 26.006035908]: I0428 22:16:42.000000 21044 kidnap_detection.cc:36] weight slow is 11.2489[0m
+[0m[ INFO] [1588133803.181929296, 26.217893836]: I0428 22:16:43.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0721302[0m
+[0m[ INFO] [1588133803.181979152, 26.217893836]: I0428 22:16:43.000000 21044 kidnap_detection.cc:35] weight fast is 13.2349[0m
+[0m[ INFO] [1588133803.182007115, 26.217893836]: I0428 22:16:43.000000 21044 kidnap_detection.cc:36] weight slow is 11.7719[0m
+[0m[ INFO] [1588133803.397245989, 26.429654347]: I0428 22:16:43.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0601448[0m
+[0m[ INFO] [1588133803.397292098, 26.429654347]: I0428 22:16:43.000000 21044 kidnap_detection.cc:35] weight fast is 15.609[0m
+[0m[ INFO] [1588133803.397321754, 26.429654347]: I0428 22:16:43.000000 21044 kidnap_detection.cc:36] weight slow is 12.7428[0m
+[0m[ INFO] [1588133803.611926946, 26.641952265]: I0428 22:16:43.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0616731[0m
+[0m[ INFO] [1588133803.611961201, 26.641952265]: I0428 22:16:43.000000 21044 kidnap_detection.cc:35] weight fast is 16.0329[0m
+[0m[ INFO] [1588133803.611983694, 26.641952265]: I0428 22:16:43.000000 21044 kidnap_detection.cc:36] weight slow is 13.4371[0m
+[0m[ INFO] [1588133803.613083608, 26.652033909]: I0428 22:16:43.000000 21044 submap_2d.cc:187] Added submap 3[0m
+[0m[ INFO] [1588133803.827203221, 26.864297812]: I0428 22:16:43.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0537342[0m
+[0m[ INFO] [1588133803.827231926, 26.864297812]: I0428 22:16:43.000000 21044 kidnap_detection.cc:35] weight fast is 17.8369[0m
+[0m[ INFO] [1588133803.827247526, 26.864297812]: I0428 22:16:43.000000 21044 kidnap_detection.cc:36] weight slow is 14.4717[0m
+[0m[ INFO] [1588133803.854070591, 26.884453134]: I0428 22:16:43.000000 21143 constraint_builder_2d.cc:266] Node (0, 70) with 100 points on submap (0, 0) differs by translation 0.00 rotation 0.004 with score 69.1%.[0m
+[0m[ INFO] [1588133803.968002572, 27.005446191]: I0428 22:16:43.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0448984[0m
+[0m[ INFO] [1588133803.968052718, 27.005446191]: I0428 22:16:43.000000 21044 kidnap_detection.cc:35] weight fast is 20.9418[0m
+[0m[ INFO] [1588133803.968092945, 27.005446191]: I0428 22:16:43.000000 21044 kidnap_detection.cc:36] weight slow is 16.0319[0m
+[0m[ INFO] [1588133803.969001963, 27.005446191]: I0428 22:16:43.000000 21143 constraint_builder_2d.cc:281] 1 computations resulted in 1 additional constraints.[0m
+[0m[ INFO] [1588133803.969059143, 27.005446191]: I0428 22:16:43.000000 21143 constraint_builder_2d.cc:283] Score histogram:
+Count: 1  Min: 0.691247  Max: 0.691247  Mean: 0.691247[0m
+[0m[ INFO] [1588133804.178336381, 27.217724358]: I0428 22:16:44.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0582218[0m
+[0m[ INFO] [1588133804.178364534, 27.217724358]: I0428 22:16:44.000000 21044 kidnap_detection.cc:35] weight fast is 18.3055[0m
+[0m[ INFO] [1588133804.178380745, 27.217724358]: I0428 22:16:44.000000 21044 kidnap_detection.cc:36] weight slow is 16.2607[0m
+[0m[ INFO] [1588133804.398448371, 27.429415762]: I0428 22:16:44.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0556285[0m
+[0m[ INFO] [1588133804.398502424, 27.429415762]: I0428 22:16:44.000000 21044 kidnap_detection.cc:35] weight fast is 18.0751[0m
+[0m[ INFO] [1588133804.398540457, 27.429415762]: I0428 22:16:44.000000 21044 kidnap_detection.cc:36] weight slow is 16.6038[0m
+[0m[ INFO] [1588133804.411385636, 27.449560283]: I0428 22:16:44.000000 21144 constraint_builder_2d.cc:266] Node (0, 73) with 105 points on submap (0, 0) differs by translation 0.01 rotation 0.002 with score 65.1%.[0m
+[0m[ INFO] [1588133804.611776446, 27.651016911]: I0428 22:16:44.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0532437[0m
+[0m[ INFO] [1588133804.611806824, 27.651016911]: I0428 22:16:44.000000 21044 kidnap_detection.cc:35] weight fast is 18.5696[0m
+[0m[ INFO] [1588133804.611828866, 27.651016911]: I0428 22:16:44.000000 21044 kidnap_detection.cc:36] weight slow is 17.0394[0m
+[0m[ INFO] [1588133804.827086041, 27.862871287]: I0428 22:16:44.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0512679[0m
+[0m[ INFO] [1588133804.827132961, 27.862871287]: I0428 22:16:44.000000 21044 kidnap_detection.cc:35] weight fast is 19.2247[0m
+[0m[ INFO] [1588133804.827173087, 27.862871287]: I0428 22:16:44.000000 21044 kidnap_detection.cc:36] weight slow is 17.5326[0m
+[0m[ INFO] [1588133804.966973605, 28.004004384]: I0428 22:16:44.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0486859[0m
+[0m[ INFO] [1588133804.967020304, 28.004004384]: I0428 22:16:44.000000 21044 kidnap_detection.cc:35] weight fast is 20.1453[0m
+[0m[ INFO] [1588133804.967055752, 28.004004384]: I0428 22:16:44.000000 21044 kidnap_detection.cc:36] weight slow is 18.134[0m
+[0m[ INFO] [1588133804.979844634, 28.014088041]: I0428 22:16:44.000000 21144 constraint_builder_2d.cc:266] Node (0, 76) with 103 points on submap (0, 0) differs by translation 0.01 rotation 0.005 with score 65.0%.[0m
+[0m[ INFO] [1588133805.182261446, 28.215674074]: I0428 22:16:45.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.048778[0m
+[0m[ INFO] [1588133805.182309658, 28.215674074]: I0428 22:16:45.000000 21044 kidnap_detection.cc:35] weight fast is 20.3943[0m
+[0m[ INFO] [1588133805.182339906, 28.215674074]: I0428 22:16:45.000000 21044 kidnap_detection.cc:36] weight slow is 18.6074[0m
+[0m[ INFO] [1588133805.397539726, 28.437376973]: I0428 22:16:45.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0513494[0m
+[0m[ INFO] [1588133805.397590834, 28.437376973]: I0428 22:16:45.000000 21044 kidnap_detection.cc:35] weight fast is 19.7504[0m
+[0m[ INFO] [1588133805.397626522, 28.437376973]: I0428 22:16:45.000000 21044 kidnap_detection.cc:36] weight slow is 18.7808[0m
+[0m[ INFO] [1588133805.611382141, 28.649118790]: I0428 22:16:45.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.052799[0m
+[0m[ INFO] [1588133805.611427738, 28.649118790]: I0428 22:16:45.000000 21044 kidnap_detection.cc:35] weight fast is 19.1829[0m
+[0m[ INFO] [1588133805.611456693, 28.649118790]: I0428 22:16:45.000000 21044 kidnap_detection.cc:36] weight slow is 18.8126[0m
+[0m[ INFO] [1588133805.827061920, 28.861015704]: I0428 22:16:45.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0500878[0m
+[0m[ INFO] [1588133805.827130501, 28.861015704]: I0428 22:16:45.000000 21044 kidnap_detection.cc:35] weight fast is 19.7303[0m
+[0m[ INFO] [1588133805.827185286, 28.861015704]: I0428 22:16:45.000000 21044 kidnap_detection.cc:36] weight slow is 19.0431[0m
+[0m[ INFO] [1588133805.967237593, 29.001962091]: I0428 22:16:45.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0552475[0m
+[0m[ INFO] [1588133805.967277640, 29.001962091]: I0428 22:16:45.000000 21044 kidnap_detection.cc:35] weight fast is 18.5894[0m
+[0m[ INFO] [1588133805.967309170, 29.001962091]: I0428 22:16:45.000000 21044 kidnap_detection.cc:36] weight slow is 18.8545[0m
+[0m[ INFO] [1588133806.183328134, 29.213591840]: I0428 22:16:46.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0535435[0m
+[0m[ INFO] [1588133806.183369553, 29.213591840]: I0428 22:16:46.000000 21044 kidnap_detection.cc:35] weight fast is 18.6503[0m
+[0m[ INFO] [1588133806.183398950, 29.213591840]: I0428 22:16:46.000000 21044 kidnap_detection.cc:36] weight slow is 18.8189[0m
+[0m[ INFO] [1588133806.397632739, 29.435115613]: I0428 22:16:46.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.055951[0m
+[0m[ INFO] [1588133806.397680270, 29.435115613]: I0428 22:16:46.000000 21044 kidnap_detection.cc:35] weight fast is 18.106[0m
+[0m[ INFO] [1588133806.397750545, 29.435115613]: I0428 22:16:46.000000 21044 kidnap_detection.cc:36] weight slow is 18.6297[0m
+[0m[ INFO] [1588133806.608375301, 29.646822589]: I0428 22:16:46.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0478511[0m
+[0m[ INFO] [1588133806.608404166, 29.646822589]: I0428 22:16:46.000000 21044 kidnap_detection.cc:35] weight fast is 20.0605[0m
+[0m[ INFO] [1588133806.608419816, 29.646822589]: I0428 22:16:46.000000 21044 kidnap_detection.cc:36] weight slow is 19.0834[0m
+[0m[ INFO] [1588133806.825997842, 29.858352607]: I0428 22:16:46.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0475627[0m
+[0m[ INFO] [1588133806.826043850, 29.858352607]: I0428 22:16:46.000000 21044 kidnap_detection.cc:35] weight fast is 20.7356[0m
+[0m[ INFO] [1588133806.826077494, 29.858352607]: I0428 22:16:46.000000 21044 kidnap_detection.cc:36] weight slow is 19.4717[0m
+[0m[ INFO] [1588133806.969721117, 29.999537438]: I0428 22:16:46.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0413372[0m
+[0m[ INFO] [1588133806.969811881, 30.009602839]: I0428 22:16:46.000000 21044 kidnap_detection.cc:35] weight fast is 23.1546[0m
+[0m[ INFO] [1588133806.969854082, 30.009602839]: I0428 22:16:46.000000 21044 kidnap_detection.cc:36] weight slow is 20.4156[0m
+[0m[ INFO] [1588133806.983551932, 30.019691766]: I0428 22:16:46.000000 21145 constraint_builder_2d.cc:266] Node (0, 86) with 100 points on submap (0, 0) differs by translation 0.01 rotation 0.003 with score 65.3%.[0m
+[0m[ INFO] [1588133807.175024623, 30.211433302]: I0428 22:16:47.000000 21044 collated_trajectory_builder.cc:72] scan rate: 5.00 Hz 2.00e-01 s +/- 2.97e-02 s (pulsed at 100.00% real time)[0m
+[0m[ INFO] [1588133807.181978093, 30.221494476]: I0428 22:16:47.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0315816[0m
+[0m[ INFO] [1588133807.182019011, 30.221494476]: I0428 22:16:47.000000 21044 kidnap_detection.cc:35] weight fast is 29.1112[0m
+[0m[ INFO] [1588133807.182056282, 30.221494476]: I0428 22:16:47.000000 21044 kidnap_detection.cc:36] weight slow is 22.6653[0m
+[0m[ INFO] [1588133807.397206901, 30.433315877]: I0428 22:16:47.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0487998[0m
+[0m[ INFO] [1588133807.397252178, 30.433315877]: I0428 22:16:47.000000 21044 kidnap_detection.cc:35] weight fast is 23.0777[0m
+[0m[ INFO] [1588133807.397281313, 30.433315877]: I0428 22:16:47.000000 21044 kidnap_detection.cc:36] weight slow is 22.2306[0m
+[0m[ INFO] [1588133807.610700270, 30.645318525]: I0428 22:16:47.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.27966[0m
+[0m[ INFO] [1588133807.610756588, 30.645318525]: I0428 22:16:47.000000 21044 kidnap_detection.cc:35] weight fast is 9.42635[0m
+[0m[ INFO] [1588133807.610789391, 30.645318525]: I0428 22:16:47.000000 21044 kidnap_detection.cc:36] weight slow is 18.4996[0m
+[0m[ INFO] [1588133807.822285149, 30.856975121]: I0428 22:16:47.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.245236[0m
+[0m[ INFO] [1588133807.822313173, 30.856975121]: I0428 22:16:47.000000 21044 kidnap_detection.cc:35] weight fast is 5.6823[0m
+[0m[ INFO] [1588133807.822330085, 30.856975121]: I0428 22:16:47.000000 21044 kidnap_detection.cc:36] weight slow is 15.6153[0m
+[0m[ INFO] [1588133807.967318679, 30.998196239]: I0428 22:16:47.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.231369[0m
+[0m[ INFO] [1588133807.967363584, 30.998196239]: I0428 22:16:47.000000 21044 kidnap_detection.cc:35] weight fast is 4.73016[0m
+[0m[ INFO] [1588133807.967397690, 30.998196239]: I0428 22:16:47.000000 21044 kidnap_detection.cc:36] weight slow is 13.3566[0m
+[0m[ INFO] [1588133808.180271019, 31.219877054]: I0428 22:16:48.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.243678[0m
+[0m[ INFO] [1588133808.180297910, 31.219877054]: I0428 22:16:48.000000 21044 kidnap_detection.cc:35] weight fast is 4.2917[0m
+[0m[ INFO] [1588133808.180351202, 31.219877054]: I0428 22:16:48.000000 21044 kidnap_detection.cc:36] weight slow is 11.5061[0m
+[0m[ INFO] [1588133808.397542169, 31.431545659]: I0428 22:16:48.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.242765[0m
+[33m[ WARN] [1588133808.397598817, 31.431545659]: W0428 22:16:48.000000 21044 kidnap_detection.cc:16] Kidnapped, find by Scan Matching cost test[0m
+[0m[ INFO] [1588133808.397636520, 31.431545659]: I0428 22:16:48.000000 21044 kidnap_detection.cc:35] weight fast is 4.17096[0m
+[0m[ INFO] [1588133808.397674803, 31.431545659]: I0428 22:16:48.000000 21044 kidnap_detection.cc:36] weight slow is 10.0287[0m
+[33m[ WARN] [1588133808.398267396, 31.431545659]: W0428 22:16:48.000000 21044 node.cc:704] kidnap found from trajectory: 0[0m
+[0m[ INFO] [1588133808.399760081, 31.431545659]: I0428 22:16:48.000000 21044 node.cc:507] Shutdown the subscriber of [scan][0m
+[0m[ INFO] [1588133808.399793635, 31.431545659]: I0428 22:16:48.000000 21044 map_builder_bridge.cc:148] Finishing trajectory with ID '0'...[0m
+[0m[ INFO] [1588133808.399842098, 31.431545659]: I0428 22:16:48.000000 21044 node.cc:512] Trajectory : 0 is finished[0m
+[0m[ INFO] [1588133808.400574439, 31.431545659]: I0428 22:16:48.000000 21044 submap_2d.cc:187] Added submap 1[0m
+[0m[ INFO] [1588133808.400618804, 31.431545659]: I0428 22:16:48.000000 21044 map_builder_bridge.cc:130] Added trajectory with ID '1'.[0m
+cartographer AddTrejectory(), added trajectory with id : 1
+[0m[ INFO] [1588133808.400677185, 31.431545659]: I0428 22:16:48.000000 21044 node.cc:359] Trajectory added, id is 1[0m
+[0m[ INFO] [1588133808.405359110, 31.441627571]: I0428 22:16:48.000000 21044 node.cc:707] new trajectory created, its id is : 1[0m
+[0m[ INFO] [1588133808.407023163, 31.441627571]: I0428 22:16:48.000000 21144 constraint_builder_2d.cc:281] 7 computations resulted in 3 additional constraints.[0m
+[0m[ INFO] [1588133808.407176536, 31.441627571]: I0428 22:16:48.000000 21144 constraint_builder_2d.cc:283] Score histogram:
+Count: 4  Min: 0.650451  Max: 0.691247  Mean: 0.661478
+[0.650451, 0.654531)	     ###############	Count: 3 (75.000000%)	Total: 3 (75.000000%)
+[0.654531, 0.658610)	                    	Count: 0 (0.000000%)	Total: 3 (75.000000%)
+[0.658610, 0.662690)	                    	Count: 0 (0.000000%)	Total: 3 (75.000000%)
+[0.662690, 0.666770)	                    	Count: 0 (0.000000%)	Total: 3 (75.000000%)
+[0.666770, 0.670849)	                    	Count: 0 (0.000000%)	Total: 3 (75.000000%)
+[0.670849, 0.674929)	                    	Count: 0 (0.000000%)	Total: 3 (75.000000%)
+[0.674929, 0.679008)	                    	Count: 0 (0.000000%)	Total: 3 (75.000000%)
+[0.679008, 0.683088)	                    	Count: 0 (0.000000%)	Total: 3 (75.000000%)
+[0.683088, 0.687167)	                    	Count: 0 (0.000000%)	Total: 3 (75.000000%)
+[0.687167, 0.691247]	               #####	Count: 1 (25.000000%)	Total: 4 (100.000000%)[0m
+[0m[ INFO] [1588133808.604476379, 31.643651239]: I0428 22:16:48.000000 21044 ordered_multi_queue.cc:172] All sensor data for trajectory 1 is available starting at '621355968316442451'.[0m
+[0m[ INFO] [1588133808.609339731, 31.643651239]: I0428 22:16:48.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.405[0m
+[0m[ INFO] [1588133808.609378455, 31.643651239]: I0428 22:16:48.000000 21044 kidnap_detection.cc:35] weight fast is 1.7284[0m
+[0m[ INFO] [1588133808.609406980, 31.643651239]: I0428 22:16:48.000000 21044 kidnap_detection.cc:36] weight slow is 0.493827[0m
+[33m[ WARN] [1588133808.609486792, 31.643651239]: W0428 22:16:48.000000 21044 pose_extrapolator.cc:168] Queue too short for velocity estimation. Queue duration: 0 ms[0m
+[0m[ INFO] [1588133808.825168513, 31.855355002]: I0428 22:16:48.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.189539[0m
+[0m[ INFO] [1588133808.825220723, 31.855355002]: I0428 22:16:48.000000 21044 kidnap_detection.cc:35] weight fast is 4.21169[0m
+[0m[ INFO] [1588133808.825247815, 31.855355002]: I0428 22:16:48.000000 21044 kidnap_detection.cc:36] weight slow is 1.45025[0m
+[0m[ INFO] [1588133808.967356748, 32.007105866]: I0428 22:16:48.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.214044[0m
+[0m[ INFO] [1588133808.967404749, 32.007105866]: I0428 22:16:48.000000 21044 kidnap_detection.cc:35] weight fast is 4.53386[0m
+[0m[ INFO] [1588133808.967435859, 32.007105866]: I0428 22:16:48.000000 21044 kidnap_detection.cc:36] weight slow is 2.09459[0m
+[0m[ INFO] [1588133809.182599506, 32.218603862]: I0428 22:16:49.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.182677[0m
+[0m[ INFO] [1588133809.182649542, 32.218603862]: I0428 22:16:49.000000 21044 kidnap_detection.cc:35] weight fast is 5.19206[0m
+[0m[ INFO] [1588133809.182681803, 32.218603862]: I0428 22:16:49.000000 21044 kidnap_detection.cc:36] weight slow is 2.7705[0m
+[0m[ INFO] [1588133809.396633080, 32.430367955]: I0428 22:16:49.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.200483[0m
+[0m[ INFO] [1588133809.396684819, 32.430367955]: I0428 22:16:49.000000 21044 kidnap_detection.cc:35] weight fast is 5.04919[0m
+[0m[ INFO] [1588133809.396715568, 32.430367955]: I0428 22:16:49.000000 21044 kidnap_detection.cc:36] weight slow is 3.21399[0m
+[0m[ INFO] [1588133809.611064666, 32.642401595]: I0428 22:16:49.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.152467[0m
+[0m[ INFO] [1588133809.611113740, 32.642401595]: I0428 22:16:49.000000 21044 kidnap_detection.cc:35] weight fast is 6.10593[0m
+[0m[ INFO] [1588133809.611179005, 32.642401595]: I0428 22:16:49.000000 21044 kidnap_detection.cc:36] weight slow is 3.88296[0m
+[0m[ INFO] [1588133809.824190054, 32.853962320]: I0428 22:16:49.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.174219[0m
+[0m[ INFO] [1588133809.824219770, 32.853962320]: I0428 22:16:49.000000 21044 kidnap_detection.cc:35] weight fast is 5.84971[0m
+[0m[ INFO] [1588133809.824242905, 32.853962320]: I0428 22:16:49.000000 21044 kidnap_detection.cc:36] weight slow is 4.25435[0m
+[0m[ INFO] [1588133809.967031775, 33.005851957]: I0428 22:16:49.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.182881[0m
+[0m[ INFO] [1588133809.967081551, 33.005851957]: I0428 22:16:49.000000 21044 kidnap_detection.cc:35] weight fast is 5.58254[0m
+[0m[ INFO] [1588133809.967112209, 33.005851957]: I0428 22:16:49.000000 21044 kidnap_detection.cc:36] weight slow is 4.49708[0m
+[0m[ INFO] [1588133810.182288776, 33.218383025]: I0428 22:16:50.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.179543[0m
+[0m[ INFO] [1588133810.182331728, 33.218383025]: I0428 22:16:50.000000 21044 kidnap_detection.cc:35] weight fast is 5.57354[0m
+[0m[ INFO] [1588133810.182364271, 33.218383025]: I0428 22:16:50.000000 21044 kidnap_detection.cc:36] weight slow is 4.71161[0m
+[0m[ INFO] [1588133810.395779088, 33.430071750]: I0428 22:16:50.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.120492[0m
+[0m[ INFO] [1588133810.395811300, 33.430071750]: I0428 22:16:50.000000 21044 kidnap_detection.cc:35] weight fast is 7.48156[0m
+[0m[ INFO] [1588133810.395829835, 33.430071750]: I0428 22:16:50.000000 21044 kidnap_detection.cc:36] weight slow is 5.42914[0m
+[0m[ INFO] [1588133810.610949032, 33.642084506]: I0428 22:16:50.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.134619[0m
+[0m[ INFO] [1588133810.611014407, 33.642084506]: I0428 22:16:50.000000 21044 kidnap_detection.cc:35] weight fast is 7.44433[0m
+[0m[ INFO] [1588133810.611083259, 33.642084506]: I0428 22:16:50.000000 21044 kidnap_detection.cc:36] weight slow is 5.82899[0m
+[0m[ INFO] [1588133810.825882744, 33.863849394]: I0428 22:16:50.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.143593[0m
+[0m[ INFO] [1588133810.825928642, 33.863849394]: I0428 22:16:50.000000 21044 kidnap_detection.cc:35] weight fast is 7.1082[0m
+[0m[ INFO] [1588133810.825955423, 33.863849394]: I0428 22:16:50.000000 21044 kidnap_detection.cc:36] weight slow is 6.05602[0m
+[0m[ INFO] [1588133810.968734413, 34.005644511]: I0428 22:16:50.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.148829[0m
+[0m[ INFO] [1588133810.968783196, 34.005644511]: I0428 22:16:50.000000 21044 kidnap_detection.cc:35] weight fast is 6.83584[0m
+[0m[ INFO] [1588133810.968821118, 34.005644511]: I0428 22:16:50.000000 21044 kidnap_detection.cc:36] weight slow is 6.18864[0m
+[0m[ INFO] [1588133811.182725428, 34.217997374]: I0428 22:16:51.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.133199[0m
+[0m[ INFO] [1588133811.182774613, 34.217997374]: I0428 22:16:51.000000 21044 kidnap_detection.cc:35] weight fast is 7.30603[0m
+[0m[ INFO] [1588133811.182806734, 34.217997374]: I0428 22:16:51.000000 21044 kidnap_detection.cc:36] weight slow is 6.45242[0m
+[0m[ INFO] [1588133811.396554574, 34.430026177]: I0428 22:16:51.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.137367[0m
+[0m[ INFO] [1588133811.396598408, 34.430026177]: I0428 22:16:51.000000 21044 kidnap_detection.cc:35] weight fast is 7.28766[0m
+[0m[ INFO] [1588133811.396627163, 34.430026177]: I0428 22:16:51.000000 21044 kidnap_detection.cc:36] weight slow is 6.61789[0m
+[0m[ INFO] [1588133811.612455162, 34.652057880]: I0428 22:16:51.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.138208[0m
+[0m[ INFO] [1588133811.612505648, 34.652057880]: I0428 22:16:51.000000 21044 kidnap_detection.cc:35] weight fast is 7.25112[0m
+[0m[ INFO] [1588133811.612540745, 34.652057880]: I0428 22:16:51.000000 21044 kidnap_detection.cc:36] weight slow is 6.74141[0m
+[0m[ INFO] [1588133811.826956794, 34.863787881]: I0428 22:16:51.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0952738[0m
+[0m[ INFO] [1588133811.827047287, 34.863787881]: I0428 22:16:51.000000 21044 kidnap_detection.cc:35] weight fast is 9.52258[0m
+[0m[ INFO] [1588133811.827085981, 34.863787881]: I0428 22:16:51.000000 21044 kidnap_detection.cc:36] weight slow is 7.49234[0m
+[0m[ INFO] [1588133811.967862136, 35.005351342]: I0428 22:16:51.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.103221[0m
+[0m[ INFO] [1588133811.967899828, 35.005351342]: I0428 22:16:51.000000 21044 kidnap_detection.cc:35] weight fast is 9.63831[0m
+[0m[ INFO] [1588133811.967929295, 35.005351342]: I0428 22:16:51.000000 21044 kidnap_detection.cc:36] weight slow is 7.93145[0m
+[0m[ INFO] [1588133812.183041502, 35.217340055]: I0428 22:16:52.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.107354[0m
+[0m[ INFO] [1588133812.183089443, 35.217340055]: I0428 22:16:52.000000 21044 kidnap_detection.cc:35] weight fast is 9.41197[0m
+[0m[ INFO] [1588133812.183126314, 35.217340055]: I0428 22:16:52.000000 21044 kidnap_detection.cc:36] weight slow is 8.20815[0m
+[0m[ INFO] [1588133812.395759949, 35.429397068]: I0428 22:16:52.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0967804[0m
+[0m[ INFO] [1588133812.395807540, 35.429397068]: I0428 22:16:52.000000 21044 kidnap_detection.cc:35] weight fast is 10.0565[0m
+[0m[ INFO] [1588133812.395834952, 35.429397068]: I0428 22:16:52.000000 21044 kidnap_detection.cc:36] weight slow is 8.63306[0m
+[0m[ INFO] [1588133812.611182699, 35.641294515]: I0428 22:16:52.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.102542[0m
+[0m[ INFO] [1588133812.611235019, 35.641294515]: I0428 22:16:52.000000 21044 kidnap_detection.cc:35] weight fast is 9.84343[0m
+[0m[ INFO] [1588133812.611283251, 35.641294515]: I0428 22:16:52.000000 21044 kidnap_detection.cc:36] weight slow is 8.85687[0m
+[0m[ INFO] [1588133812.827218741, 35.862922172]: I0428 22:16:52.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.111521[0m
+[0m[ INFO] [1588133812.827271392, 35.862922172]: I0428 22:16:52.000000 21044 kidnap_detection.cc:35] weight fast is 9.22987[0m
+[0m[ INFO] [1588133812.827306509, 35.862922172]: I0428 22:16:52.000000 21044 kidnap_detection.cc:36] weight slow is 8.87888[0m
+[0m[ INFO] [1588133812.967205264, 36.003993390]: I0428 22:16:52.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.123576[0m
+[0m[ INFO] [1588133812.967253667, 36.003993390]: I0428 22:16:52.000000 21044 kidnap_detection.cc:35] weight fast is 8.43349[0m
+[0m[ INFO] [1588133812.967282472, 36.003993390]: I0428 22:16:52.000000 21044 kidnap_detection.cc:36] weight slow is 8.72154[0m
+[0m[ INFO] [1588133813.181907222, 36.215573607]: I0428 22:16:53.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.134444[0m
+[0m[ INFO] [1588133813.181958220, 36.215573607]: I0428 22:16:53.000000 21044 kidnap_detection.cc:35] weight fast is 7.73667[0m
+[0m[ INFO] [1588133813.181998607, 36.215573607]: I0428 22:16:53.000000 21044 kidnap_detection.cc:36] weight slow is 8.46484[0m
+[0m[ INFO] [1588133813.396973336, 36.427426255]: I0428 22:16:53.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.09896[0m
+[0m[ INFO] [1588133813.397024434, 36.427426255]: I0428 22:16:53.000000 21044 kidnap_detection.cc:35] weight fast is 9.39457[0m
+[0m[ INFO] [1588133813.397055794, 36.427426255]: I0428 22:16:53.000000 21044 kidnap_detection.cc:36] weight slow is 8.79289[0m
+[0m[ INFO] [1588133813.610988751, 36.649157897]: I0428 22:16:53.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.111173[0m
+[0m[ INFO] [1588133813.611036943, 36.649157897]: I0428 22:16:53.000000 21044 kidnap_detection.cc:35] weight fast is 9.11489[0m
+[0m[ INFO] [1588133813.611064355, 36.649157897]: I0428 22:16:53.000000 21044 kidnap_detection.cc:36] weight slow is 8.83332[0m
+[0m[ INFO] [1588133813.825853900, 36.860710561]: I0428 22:16:53.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.115673[0m
+[0m[ INFO] [1588133813.825900890, 36.860710561]: I0428 22:16:53.000000 21044 kidnap_detection.cc:35] weight fast is 8.78601[0m
+[0m[ INFO] [1588133813.825928342, 36.860710561]: I0428 22:16:53.000000 21044 kidnap_detection.cc:36] weight slow is 8.79566[0m
+[0m[ INFO] [1588133813.967962789, 37.001854495]: I0428 22:16:53.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0873222[0m
+[0m[ INFO] [1588133813.968016262, 37.001854495]: I0428 22:16:53.000000 21044 kidnap_detection.cc:35] weight fast is 10.6521[0m
+[0m[ INFO] [1588133813.968049305, 37.001854495]: I0428 22:16:53.000000 21044 kidnap_detection.cc:36] weight slow is 9.3269[0m
+[0m[ INFO] [1588133814.181007073, 37.213357351]: I0428 22:16:54.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0930895[0m
+[0m[ INFO] [1588133814.181038533, 37.213357351]: I0428 22:16:54.000000 21044 kidnap_detection.cc:35] weight fast is 10.7153[0m
+[0m[ INFO] [1588133814.181054183, 37.213357351]: I0428 22:16:54.000000 21044 kidnap_detection.cc:36] weight slow is 9.60999[0m
+[0m[ INFO] [1588133814.395955878, 37.435093167]: I0428 22:16:54.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0830367[0m
+[0m[ INFO] [1588133814.395987319, 37.435093167]: I0428 22:16:54.000000 21044 kidnap_detection.cc:35] weight fast is 11.6446[0m
+[0m[ INFO] [1588133814.396012046, 37.435093167]: I0428 22:16:54.000000 21044 kidnap_detection.cc:36] weight slow is 10.0966[0m
+[0m[ INFO] [1588133814.610931064, 37.646875216]: I0428 22:16:54.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0817175[0m
+[0m[ INFO] [1588133814.610979737, 37.646875216]: I0428 22:16:54.000000 21044 kidnap_detection.cc:35] weight fast is 12.0595[0m
+[0m[ INFO] [1588133814.611008602, 37.646875216]: I0428 22:16:54.000000 21044 kidnap_detection.cc:36] weight slow is 10.5247[0m
+[0m[ INFO] [1588133814.825543667, 37.858462943]: I0428 22:16:54.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0863599[0m
+[0m[ INFO] [1588133814.825595005, 37.858462943]: I0428 22:16:54.000000 21044 kidnap_detection.cc:35] weight fast is 11.7235[0m
+[0m[ INFO] [1588133814.825623409, 37.858462943]: I0428 22:16:54.000000 21044 kidnap_detection.cc:36] weight slow is 10.7357[0m
+[0m[ INFO] [1588133814.966400940, 37.999505380]: I0428 22:16:54.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0832833[0m
+[0m[ INFO] [1588133814.966447419, 37.999505380]: I0428 22:16:54.000000 21044 kidnap_detection.cc:35] weight fast is 11.9221[0m
+[0m[ INFO] [1588133814.966475773, 37.999505380]: I0428 22:16:54.000000 21044 kidnap_detection.cc:36] weight slow is 10.99[0m
+[0m[ INFO] [1588133815.180419272, 38.211028581]: I0428 22:16:55.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0791465[0m
+[0m[ INFO] [1588133815.180482994, 38.211028581]: I0428 22:16:55.000000 21044 kidnap_detection.cc:35] weight fast is 12.421[0m
+[0m[ INFO] [1588133815.180541506, 38.211028581]: I0428 22:16:55.000000 21044 kidnap_detection.cc:36] weight slow is 11.3189[0m
+[0m[ INFO] [1588133815.395692024, 38.432672697]: I0428 22:16:55.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0904654[0m
+[0m[ INFO] [1588133815.395742320, 38.432672697]: I0428 22:16:55.000000 21044 kidnap_detection.cc:35] weight fast is 11.4641[0m
+[0m[ INFO] [1588133815.395776405, 38.432672697]: I0428 22:16:55.000000 21044 kidnap_detection.cc:36] weight slow is 11.2659[0m
+[0m[ INFO] [1588133815.609831818, 38.644342818]: I0428 22:16:55.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.107251[0m
+[0m[ INFO] [1588133815.609879609, 38.644342818]: I0428 22:16:55.000000 21044 kidnap_detection.cc:35] weight fast is 9.96598[0m
+[0m[ INFO] [1588133815.609920528, 38.644342818]: I0428 22:16:55.000000 21044 kidnap_detection.cc:36] weight slow is 10.8775[0m
+[0m[ INFO] [1588133815.825559018, 38.855983273]: I0428 22:16:55.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.116382[0m
+[0m[ INFO] [1588133815.825610717, 38.855983273]: I0428 22:16:55.000000 21044 kidnap_detection.cc:35] weight fast is 9.00445[0m
+[0m[ INFO] [1588133815.825643289, 38.855983273]: I0428 22:16:55.000000 21044 kidnap_detection.cc:36] weight slow is 10.4205[0m
+[0m[ INFO] [1588133815.966596073, 38.997151488]: I0428 22:16:55.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.117742[0m
+[0m[ INFO] [1588133815.966647661, 38.997151488]: I0428 22:16:55.000000 21044 kidnap_detection.cc:35] weight fast is 8.64653[0m
+[0m[ INFO] [1588133815.966679522, 38.997151488]: I0428 22:16:55.000000 21044 kidnap_detection.cc:36] weight slow is 10.035[0m
+[0m[ INFO] [1588133816.180601948, 39.218961248]: I0428 22:16:56.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.131039[0m
+[0m[ INFO] [1588133816.180647906, 39.218961248]: I0428 22:16:56.000000 21044 kidnap_detection.cc:35] weight fast is 7.93589[0m
+[0m[ INFO] [1588133816.180675258, 39.218961248]: I0428 22:16:56.000000 21044 kidnap_detection.cc:36] weight slow is 9.55429[0m
+[0m[ INFO] [1588133816.395207890, 39.430789859]: I0428 22:16:56.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0803557[0m
+[0m[ INFO] [1588133816.395243798, 39.430789859]: I0428 22:16:56.000000 21044 kidnap_detection.cc:35] weight fast is 11.092[0m
+[0m[ INFO] [1588133816.395263546, 39.430789859]: I0428 22:16:56.000000 21044 kidnap_detection.cc:36] weight slow is 10.1324[0m
+[0m[ INFO] [1588133816.607259276, 39.642459825]: I0428 22:16:56.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.101765[0m
+[0m[ INFO] [1588133816.607285776, 39.642459825]: I0428 22:16:56.000000 21044 kidnap_detection.cc:35] weight fast is 10.2062[0m
+[0m[ INFO] [1588133816.607300675, 39.642459825]: I0428 22:16:56.000000 21044 kidnap_detection.cc:36] weight slow is 10.0712[0m
+[0m[ INFO] [1588133816.825470393, 39.864387039]: I0428 22:16:56.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.111973[0m
+[0m[ INFO] [1588133816.825516641, 39.864387039]: I0428 22:16:56.000000 21044 kidnap_detection.cc:35] weight fast is 9.31338[0m
+[0m[ INFO] [1588133816.825543743, 39.864387039]: I0428 22:16:56.000000 21044 kidnap_detection.cc:36] weight slow is 9.84312[0m
+[0m[ INFO] [1588133816.968844845, 40.005533841]: I0428 22:16:56.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.135844[0m
+[0m[ INFO] [1588133816.968919698, 40.005533841]: I0428 22:16:56.000000 21044 kidnap_detection.cc:35] weight fast is 7.94699[0m
+[0m[ INFO] [1588133816.968973120, 40.005533841]: I0428 22:16:56.000000 21044 kidnap_detection.cc:36] weight slow is 9.34677[0m
+[0m[ INFO] [1588133817.182209129, 40.217318664]: I0428 22:16:57.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.128953[0m
+[0m[ INFO] [1588133817.182278011, 40.217318664]: I0428 22:16:57.000000 21044 kidnap_detection.cc:35] weight fast is 7.81243[0m
+[0m[ INFO] [1588133817.182327205, 40.217318664]: I0428 22:16:57.000000 21044 kidnap_detection.cc:36] weight slow is 9.02837[0m
+[0m[ INFO] [1588133817.397437327, 40.429014937]: I0428 22:16:57.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0851693[0m
+[0m[ INFO] [1588133817.397489005, 40.429014937]: I0428 22:16:57.000000 21044 kidnap_detection.cc:35] weight fast is 10.5627[0m
+[0m[ INFO] [1588133817.397523922, 40.429014937]: I0428 22:16:57.000000 21044 kidnap_detection.cc:36] weight slow is 9.57096[0m
+[0m[ INFO] [1588133817.608116896, 40.640548620]: I0428 22:16:57.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.110082[0m
+[0m[ INFO] [1588133817.608146452, 40.640548620]: I0428 22:16:57.000000 21044 kidnap_detection.cc:35] weight fast is 9.52768[0m
+[0m[ INFO] [1588133817.608162583, 40.640548620]: I0428 22:16:57.000000 21044 kidnap_detection.cc:36] weight slow is 9.47359[0m
+[0m[ INFO] [1588133817.825483293, 40.862592733]: I0428 22:16:57.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.108071[0m
+[0m[ INFO] [1588133817.825563937, 40.862592733]: I0428 22:16:57.000000 21044 kidnap_detection.cc:35] weight fast is 9.33551[0m
+[0m[ INFO] [1588133817.825600367, 40.862592733]: I0428 22:16:57.000000 21044 kidnap_detection.cc:36] weight slow is 9.42951[0m
+[0m[ INFO] [1588133817.967252292, 41.003593804]: I0428 22:16:57.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.120109[0m
+[0m[ INFO] [1588133817.967286528, 41.003593804]: I0428 22:16:57.000000 21044 kidnap_detection.cc:35] weight fast is 8.62871[0m
+[0m[ INFO] [1588133817.967305303, 41.003593804]: I0428 22:16:57.000000 21044 kidnap_detection.cc:36] weight slow is 9.20876[0m
+[0m[ INFO] [1588133818.181968447, 41.215076194]: I0428 22:16:58.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.121673[0m
+[0m[ INFO] [1588133818.182022601, 41.215076194]: I0428 22:16:58.000000 21044 kidnap_detection.cc:35] weight fast is 8.34175[0m
+[0m[ INFO] [1588133818.182066244, 41.215076194]: I0428 22:16:58.000000 21044 kidnap_detection.cc:36] weight slow is 9.01076[0m
+[0m[ INFO] [1588133818.396191729, 41.426563514]: I0428 22:16:58.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.130458[0m
+[0m[ INFO] [1588133818.396237998, 41.426563514]: I0428 22:16:58.000000 21044 kidnap_detection.cc:35] weight fast is 7.86825[0m
+[0m[ INFO] [1588133818.396271432, 41.426563514]: I0428 22:16:58.000000 21044 kidnap_detection.cc:36] weight slow is 8.74168[0m
+[0m[ INFO] [1588133818.607815049, 41.638115718]: I0428 22:16:58.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0946741[0m
+[0m[ INFO] [1588133818.607843784, 41.638115718]: I0428 22:16:58.000000 21044 kidnap_detection.cc:35] weight fast is 9.75426[0m
+[0m[ INFO] [1588133818.607860977, 41.638115718]: I0428 22:16:58.000000 21044 kidnap_detection.cc:36] weight slow is 9.10585[0m
+[0m[ INFO] [1588133818.824718628, 41.859515445]: I0428 22:16:58.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.120636[0m
+[0m[ INFO] [1588133818.824764525, 41.859515445]: I0428 22:16:58.000000 21044 kidnap_detection.cc:35] weight fast is 8.72884[0m
+[0m[ INFO] [1588133818.824791898, 41.859515445]: I0428 22:16:58.000000 21044 kidnap_detection.cc:36] weight slow is 8.94256[0m
+[0m[ INFO] [1588133818.966534143, 42.000628267]: I0428 22:16:58.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.135182[0m
+[0m[ INFO] [1588133818.966585221, 42.000628267]: I0428 22:16:58.000000 21044 kidnap_detection.cc:35] weight fast is 7.79684[0m
+[0m[ INFO] [1588133818.966621901, 42.000628267]: I0428 22:16:58.000000 21044 kidnap_detection.cc:36] weight slow is 8.63353[0m
+[0m[ INFO] [1588133819.180869587, 42.212625398]: I0428 22:16:59.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.150586[0m
+[0m[ INFO] [1588133819.180915134, 42.212625398]: I0428 22:16:59.000000 21044 kidnap_detection.cc:35] weight fast is 6.98754[0m
+[0m[ INFO] [1588133819.180963847, 42.212625398]: I0428 22:16:59.000000 21044 kidnap_detection.cc:36] weight slow is 8.23496[0m
+[0m[ INFO] [1588133819.395814144, 42.434177533]: I0428 22:16:59.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.112745[0m
+[0m[ INFO] [1588133819.395845945, 42.434177533]: I0428 22:16:59.000000 21044 kidnap_detection.cc:35] weight fast is 8.30499[0m
+[0m[ INFO] [1588133819.395864370, 42.434177533]: I0428 22:16:59.000000 21044 kidnap_detection.cc:36] weight slow is 8.36189[0m
+[0m[ INFO] [1588133819.611214524, 42.645864581]: I0428 22:16:59.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.117807[0m
+[0m[ INFO] [1588133819.611244652, 42.645864581]: I0428 22:16:59.000000 21044 kidnap_detection.cc:35] weight fast is 8.43341[0m
+[0m[ INFO] [1588133819.611262957, 42.645864581]: I0428 22:16:59.000000 21044 kidnap_detection.cc:36] weight slow is 8.3872[0m
+[0m[ INFO] [1588133819.825016988, 42.857478559]: I0428 22:16:59.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.127019[0m
+[0m[ INFO] [1588133819.825093685, 42.857478559]: I0428 22:16:59.000000 21044 kidnap_detection.cc:35] weight fast is 8.041[0m
+[0m[ INFO] [1588133819.825122259, 42.857478559]: I0428 22:16:59.000000 21044 kidnap_detection.cc:36] weight slow is 8.28433[0m
+[0m[ INFO] [1588133819.965811168, 42.998898576]: I0428 22:16:59.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.139888[0m
+[0m[ INFO] [1588133819.965854360, 42.998898576]: I0428 22:16:59.000000 21044 kidnap_detection.cc:35] weight fast is 7.41631[0m
+[0m[ INFO] [1588133819.965888917, 42.998898576]: I0428 22:16:59.000000 21044 kidnap_detection.cc:36] weight slow is 8.05718[0m
+[0m[ INFO] [1588133820.180081473, 43.210563609]: I0428 22:17:00.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.140605[0m
+[0m[ INFO] [1588133820.180112422, 43.210563609]: I0428 22:17:00.000000 21044 kidnap_detection.cc:35] weight fast is 7.20339[0m
+[0m[ INFO] [1588133820.180136438, 43.210563609]: I0428 22:17:00.000000 21044 kidnap_detection.cc:36] weight slow is 7.86817[0m
+[0m[ INFO] [1588133820.396275326, 43.432306905]: I0428 22:17:00.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0940524[0m
+[0m[ INFO] [1588133820.396320292, 43.432306905]: I0428 22:17:00.000000 21044 kidnap_detection.cc:35] weight fast is 9.60368[0m
+[0m[ INFO] [1588133820.396354197, 43.432306905]: I0428 22:17:00.000000 21044 kidnap_detection.cc:36] weight slow is 8.42101[0m
+[0m[ INFO] [1588133820.609840021, 43.644031481]: I0428 22:17:00.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.120625[0m
+[0m[ INFO] [1588133820.609886089, 43.644031481]: I0428 22:17:00.000000 21044 kidnap_detection.cc:35] weight fast is 8.68423[0m
+[0m[ INFO] [1588133820.609934311, 43.644031481]: I0428 22:17:00.000000 21044 kidnap_detection.cc:36] weight slow is 8.39485[0m
+[0m[ INFO] [1588133820.825737698, 43.855986036]: I0428 22:17:00.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.132947[0m
+[0m[ INFO] [1588133820.825792623, 43.855986036]: I0428 22:17:00.000000 21044 kidnap_detection.cc:35] weight fast is 7.87054[0m
+[0m[ INFO] [1588133820.825825756, 43.855986036]: I0428 22:17:00.000000 21044 kidnap_detection.cc:36] weight slow is 8.22024[0m
+[0m[ INFO] [1588133820.967435904, 44.007077246]: I0428 22:17:00.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0965507[0m
+[0m[ INFO] [1588133820.967492452, 44.007077246]: I0428 22:17:00.000000 21044 kidnap_detection.cc:35] weight fast is 9.61124[0m
+[0m[ INFO] [1588133820.967530264, 44.007077246]: I0428 22:17:00.000000 21044 kidnap_detection.cc:36] weight slow is 8.64764[0m
+[0m[ INFO] [1588133821.180053264, 44.218818130]: I0428 22:17:01.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.099627[0m
+[0m[ INFO] [1588133821.180081328, 44.218818130]: I0428 22:17:01.000000 21044 kidnap_detection.cc:35] weight fast is 9.90958[0m
+[0m[ INFO] [1588133821.180096867, 44.218818130]: I0428 22:17:01.000000 21044 kidnap_detection.cc:36] weight slow is 8.9256[0m
+[0m[ INFO] [1588133821.396487924, 44.430420910]: I0428 22:17:01.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.112315[0m
+[0m[ INFO] [1588133821.396543490, 44.430420910]: I0428 22:17:01.000000 21044 kidnap_detection.cc:35] weight fast is 9.20536[0m
+[0m[ INFO] [1588133821.396579960, 44.430420910]: I0428 22:17:01.000000 21044 kidnap_detection.cc:36] weight slow is 8.92119[0m
+[0m[ INFO] [1588133821.609558310, 44.642476835]: I0428 22:17:01.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.142827[0m
+[0m[ INFO] [1588133821.609609508, 44.642476835]: I0428 22:17:01.000000 21044 kidnap_detection.cc:35] weight fast is 7.66265[0m
+[0m[ INFO] [1588133821.609643252, 44.642476835]: I0428 22:17:01.000000 21044 kidnap_detection.cc:36] weight slow is 8.53725[0m
+[0m[ INFO] [1588133821.825370679, 44.864064039]: I0428 22:17:01.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.147415[0m
+[0m[ INFO] [1588133821.825453638, 44.864064039]: I0428 22:17:01.000000 21044 kidnap_detection.cc:35] weight fast is 7.0473[0m
+[0m[ INFO] [1588133821.825483715, 44.864064039]: I0428 22:17:01.000000 21044 kidnap_detection.cc:36] weight slow is 8.18652[0m
+[0m[ INFO] [1588133821.967052141, 45.005040001]: I0428 22:17:01.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.106266[0m
+[0m[ INFO] [1588133821.967109902, 45.005040001]: I0428 22:17:01.000000 21044 kidnap_detection.cc:35] weight fast is 8.70144[0m
+[0m[ INFO] [1588133821.967147594, 45.005040001]: I0428 22:17:01.000000 21044 kidnap_detection.cc:36] weight slow is 8.43129[0m
+[0m[ INFO] [1588133822.182575294, 45.216944625]: I0428 22:17:02.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.1218[0m
+[0m[ INFO] [1588133822.182657812, 45.216944625]: I0428 22:17:02.000000 21044 kidnap_detection.cc:35] weight fast is 8.35755[0m
+[0m[ INFO] [1588133822.182717216, 45.216944625]: I0428 22:17:02.000000 21044 kidnap_detection.cc:36] weight slow is 8.38706[0m
+[0m[ INFO] [1588133822.396323423, 45.428833768]: I0428 22:17:02.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0995322[0m
+[0m[ INFO] [1588133822.396381413, 45.428833768]: I0428 22:17:02.000000 21044 kidnap_detection.cc:35] weight fast is 9.54016[0m
+[0m[ INFO] [1588133822.396415228, 45.428833768]: I0428 22:17:02.000000 21044 kidnap_detection.cc:36] weight slow is 8.71905[0m
+[0m[ INFO] [1588133822.609897257, 45.640756365]: I0428 22:17:02.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.118372[0m
+[0m[ INFO] [1588133822.609943887, 45.640756365]: I0428 22:17:02.000000 21044 kidnap_detection.cc:35] weight fast is 8.7756[0m
+[0m[ INFO] [1588133822.609991107, 45.640756365]: I0428 22:17:02.000000 21044 kidnap_detection.cc:36] weight slow is 8.66483[0m
+[0m[ INFO] [1588133822.824811526, 45.862615374]: I0428 22:17:02.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.119808[0m
+[0m[ INFO] [1588133822.824857955, 45.862615374]: I0428 22:17:02.000000 21044 kidnap_detection.cc:35] weight fast is 8.47537[0m
+[0m[ INFO] [1588133822.824890176, 45.862615374]: I0428 22:17:02.000000 21044 kidnap_detection.cc:36] weight slow is 8.6012[0m
+[0m[ INFO] [1588133822.965965897, 46.003703679]: I0428 22:17:02.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.136805[0m
+[0m[ INFO] [1588133822.966018217, 46.003703679]: I0428 22:17:02.000000 21044 kidnap_detection.cc:35] weight fast is 7.65939[0m
+[0m[ INFO] [1588133822.966052413, 46.003703679]: I0428 22:17:02.000000 21044 kidnap_detection.cc:36] weight slow is 8.3429[0m
+[0m[ INFO] [1588133823.181497814, 46.215391204]: I0428 22:17:03.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.12046[0m
+[0m[ INFO] [1588133823.181553440, 46.215391204]: I0428 22:17:03.000000 21044 kidnap_detection.cc:35] weight fast is 8.10887[0m
+[0m[ INFO] [1588133823.181586553, 46.215391204]: I0428 22:17:03.000000 21044 kidnap_detection.cc:36] weight slow is 8.33462[0m
+[0m[ INFO] [1588133823.395302416, 46.426994646]: I0428 22:17:03.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.133917[0m
+[0m[ INFO] [1588133823.395349405, 46.426994646]: I0428 22:17:03.000000 21044 kidnap_detection.cc:35] weight fast is 7.65977[0m
+[0m[ INFO] [1588133823.395371267, 46.426994646]: I0428 22:17:03.000000 21044 kidnap_detection.cc:36] weight slow is 8.16115[0m
+[0m[ INFO] [1588133823.604492784, 46.638906429]: I0428 22:17:03.000000 21044 collated_trajectory_builder.cc:72] scan rate: 5.00 Hz 2.00e-01 s +/- 2.97e-02 s (pulsed at 100.00% real time)[0m
+[0m[ INFO] [1588133823.611274363, 46.648967459]: I0428 22:17:03.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0988439[0m
+[0m[ INFO] [1588133823.611303558, 46.648967459]: I0428 22:17:03.000000 21044 kidnap_detection.cc:35] weight fast is 9.3798[0m
+[0m[ INFO] [1588133823.611323066, 46.648967459]: I0428 22:17:03.000000 21044 kidnap_detection.cc:36] weight slow is 8.55232[0m
+[0m[ INFO] [1588133823.826423056, 46.860643441]: I0428 22:17:03.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.119281[0m
+[0m[ INFO] [1588133823.826474213, 46.860643441]: I0428 22:17:03.000000 21044 kidnap_detection.cc:35] weight fast is 8.68242[0m
+[0m[ INFO] [1588133823.826505413, 46.860643441]: I0428 22:17:03.000000 21044 kidnap_detection.cc:36] weight slow is 8.51856[0m
+[0m[ INFO] [1588133823.963482233, 47.002034933]: I0428 22:17:03.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.101606[0m
+[0m[ INFO] [1588133823.963506589, 47.002034933]: I0428 22:17:03.000000 21044 kidnap_detection.cc:35] weight fast is 9.49409[0m
+[0m[ INFO] [1588133823.963519364, 47.002034933]: I0428 22:17:03.000000 21044 kidnap_detection.cc:36] weight slow is 8.78324[0m
+[0m[ INFO] [1588133824.180622371, 47.213676026]: I0428 22:17:04.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.11053[0m
+[0m[ INFO] [1588133824.180650756, 47.213676026]: I0428 22:17:04.000000 21044 kidnap_detection.cc:35] weight fast is 9.18134[0m
+[0m[ INFO] [1588133824.180666305, 47.213676026]: I0428 22:17:04.000000 21044 kidnap_detection.cc:36] weight slow is 8.83605[0m
+[0m[ INFO] [1588133824.396945416, 47.435301300]: I0428 22:17:04.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0984843[0m
+[0m[ INFO] [1588133824.396972538, 47.435301300]: I0428 22:17:04.000000 21044 kidnap_detection.cc:35] weight fast is 9.86213[0m
+[0m[ INFO] [1588133824.396987867, 47.435301300]: I0428 22:17:04.000000 21044 kidnap_detection.cc:36] weight slow is 9.09962[0m
+[0m[ INFO] [1588133824.612450887, 47.647194363]: I0428 22:17:04.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.104442[0m
+[0m[ INFO] [1588133824.612499791, 47.647194363]: I0428 22:17:04.000000 21044 kidnap_detection.cc:35] weight fast is 9.66092[0m
+[0m[ INFO] [1588133824.612535739, 47.647194363]: I0428 22:17:04.000000 21044 kidnap_detection.cc:36] weight slow is 9.19463[0m
+[0m[ INFO] [1588133824.826215359, 47.859093688]: I0428 22:17:04.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0876636[0m
+[0m[ INFO] [1588133824.826265124, 47.859093688]: I0428 22:17:04.000000 21044 kidnap_detection.cc:35] weight fast is 10.8833[0m
+[0m[ INFO] [1588133824.826296544, 47.859093688]: I0428 22:17:04.000000 21044 kidnap_detection.cc:36] weight slow is 9.63716[0m
+[0m[ INFO] [1588133824.967568936, 48.000272461]: I0428 22:17:04.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.114311[0m
+[0m[ INFO] [1588133824.967625364, 48.000272461]: I0428 22:17:04.000000 21044 kidnap_detection.cc:35] weight fast is 9.38863[0m
+[0m[ INFO] [1588133824.967667795, 48.000272461]: I0428 22:17:04.000000 21044 kidnap_detection.cc:36] weight slow is 9.45933[0m
+[0m[ INFO] [1588133825.181020656, 48.212239392]: I0428 22:17:05.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0880059[0m
+[0m[ INFO] [1588133825.181047768, 48.212239392]: I0428 22:17:05.000000 21044 kidnap_detection.cc:35] weight fast is 10.7706[0m
+[0m[ INFO] [1588133825.181062576, 48.212239392]: I0428 22:17:05.000000 21044 kidnap_detection.cc:36] weight slow is 9.84004[0m
+[0m[ INFO] [1588133825.397477162, 48.433825548]: I0428 22:17:05.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0948865[0m
+[0m[ INFO] [1588133825.397529613, 48.433825548]: I0428 22:17:05.000000 21044 kidnap_detection.cc:35] weight fast is 10.6084[0m
+[0m[ INFO] [1588133825.397560702, 48.433825548]: I0428 22:17:05.000000 21044 kidnap_detection.cc:36] weight slow is 9.97982[0m
+[0m[ INFO] [1588133825.612125591, 48.645841121]: I0428 22:17:05.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0988584[0m
+[0m[ INFO] [1588133825.612160097, 48.645841121]: I0428 22:17:05.000000 21044 kidnap_detection.cc:35] weight fast is 10.2634[0m
+[0m[ INFO] [1588133825.612179684, 48.645841121]: I0428 22:17:05.000000 21044 kidnap_detection.cc:36] weight slow is 10.0069[0m
+[0m[ INFO] [1588133825.825519270, 48.857397146]: I0428 22:17:05.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.106569[0m
+[0m[ INFO] [1588133825.825598742, 48.857397146]: I0428 22:17:05.000000 21044 kidnap_detection.cc:35] weight fast is 9.64754[0m
+[0m[ INFO] [1588133825.825626365, 48.857397146]: I0428 22:17:05.000000 21044 kidnap_detection.cc:36] weight slow is 9.88228[0m
+[0m[ INFO] [1588133825.967394131, 48.998374050]: I0428 22:17:05.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.1065[0m
+[0m[ INFO] [1588133825.967429980, 48.998374050]: I0428 22:17:05.000000 21044 kidnap_detection.cc:35] weight fast is 9.46705[0m
+[0m[ INFO] [1588133825.967450569, 48.998374050]: I0428 22:17:05.000000 21044 kidnap_detection.cc:36] weight slow is 9.78376[0m
+[0m[ INFO] [1588133826.182487577, 49.219986733]: I0428 22:17:06.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0741288[0m
+[0m[ INFO] [1588133826.182536952, 49.219986733]: I0428 22:17:06.000000 21044 kidnap_detection.cc:35] weight fast is 12.2831[0m
+[0m[ INFO] [1588133826.182587077, 49.219986733]: I0428 22:17:06.000000 21044 kidnap_detection.cc:36] weight slow is 10.525[0m
+[0m[ INFO] [1588133826.396943244, 49.432062177]: I0428 22:17:06.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0879798[0m
+[0m[ INFO] [1588133826.396991496, 49.432062177]: I0428 22:17:06.000000 21044 kidnap_detection.cc:35] weight fast is 11.6413[0m
+[0m[ INFO] [1588133826.397024980, 49.432062177]: I0428 22:17:06.000000 21044 kidnap_detection.cc:36] weight slow is 10.6933[0m
+[0m[ INFO] [1588133826.607418367, 49.643989238]: I0428 22:17:06.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.106592[0m
+[0m[ INFO] [1588133826.607441281, 49.643989238]: I0428 22:17:06.000000 21044 kidnap_detection.cc:35] weight fast is 10.0595[0m
+[0m[ INFO] [1588133826.607453144, 49.643989238]: I0428 22:17:06.000000 21044 kidnap_detection.cc:36] weight slow is 10.4309[0m
+[0m[ INFO] [1588133826.827758636, 49.865620937]: I0428 22:17:06.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0869684[0m
+[0m[ INFO] [1588133826.827814743, 49.865620937]: I0428 22:17:06.000000 21044 kidnap_detection.cc:35] weight fast is 11.0668[0m
+[0m[ INFO] [1588133826.827848498, 49.865620937]: I0428 22:17:06.000000 21044 kidnap_detection.cc:36] weight slow is 10.6444[0m
+[0m[ INFO] [1588133826.967081585, 49.997111007]: I0428 22:17:06.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0962885[0m
+[0m[ INFO] [1588133826.967127894, 49.997111007]: I0428 22:17:06.000000 21044 kidnap_detection.cc:35] weight fast is 10.5898[0m
+[0m[ INFO] [1588133826.967155486, 49.997111007]: I0428 22:17:06.000000 21044 kidnap_detection.cc:36] weight slow is 10.5926[0m
+[0m[ INFO] [1588133827.182858575, 50.218960700]: I0428 22:17:07.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0730987[0m
+[0m[ INFO] [1588133827.182926084, 50.218960700]: I0428 22:17:07.000000 21044 kidnap_detection.cc:35] weight fast is 12.753[0m
+[0m[ INFO] [1588133827.182974266, 50.218960700]: I0428 22:17:07.000000 21044 kidnap_detection.cc:36] weight slow is 11.2101[0m
+[0m[ INFO] [1588133827.397077014, 50.430625614]: I0428 22:17:07.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0761471[0m
+[0m[ INFO] [1588133827.397136167, 50.430625614]: I0428 22:17:07.000000 21044 kidnap_detection.cc:35] weight fast is 13.0186[0m
+[0m[ INFO] [1588133827.397180972, 50.430625614]: I0428 22:17:07.000000 21044 kidnap_detection.cc:36] weight slow is 11.5946[0m
+[0m[ INFO] [1588133827.612154605, 50.642302262]: I0428 22:17:07.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0719075[0m
+[0m[ INFO] [1588133827.612208959, 50.642302262]: I0428 22:17:07.000000 21044 kidnap_detection.cc:35] weight fast is 13.6403[0m
+[0m[ INFO] [1588133827.612242132, 50.642302262]: I0428 22:17:07.000000 21044 kidnap_detection.cc:36] weight slow is 12.057[0m
+[0m[ INFO] [1588133827.827109261, 50.863899051]: I0428 22:17:07.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0869146[0m
+[0m[ INFO] [1588133827.827197350, 50.863899051]: I0428 22:17:07.000000 21044 kidnap_detection.cc:35] weight fast is 12.146[0m
+[0m[ INFO] [1588133827.827233028, 50.863899051]: I0428 22:17:07.000000 21044 kidnap_detection.cc:36] weight slow is 11.9467[0m
+[0m[ INFO] [1588133827.968466337, 51.004910636]: I0428 22:17:07.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0765961[0m
+[0m[ INFO] [1588133827.968516022, 51.004910636]: I0428 22:17:07.000000 21044 kidnap_detection.cc:35] weight fast is 12.7826[0m
+[0m[ INFO] [1588133827.968550889, 51.004910636]: I0428 22:17:07.000000 21044 kidnap_detection.cc:36] weight slow is 12.1685[0m
+[0m[ INFO] [1588133828.178564063, 51.216831939]: I0428 22:17:08.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0731187[0m
+[0m[ INFO] [1588133828.178590593, 51.216831939]: I0428 22:17:08.000000 21044 kidnap_detection.cc:35] weight fast is 13.4083[0m
+[0m[ INFO] [1588133828.178606324, 51.216831939]: I0428 22:17:08.000000 21044 kidnap_detection.cc:36] weight slow is 12.4701[0m
+[0m[ INFO] [1588133828.178752233, 51.216831939]: I0428 22:17:08.000000 21044 submap_2d.cc:187] Added submap 2[0m
+[0m[ INFO] [1588133828.397383616, 51.428644372]: I0428 22:17:08.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0734633[0m
+[0m[ INFO] [1588133828.397439703, 51.428644372]: I0428 22:17:08.000000 21044 kidnap_detection.cc:35] weight fast is 13.551[0m
+[0m[ INFO] [1588133828.397512673, 51.428644372]: I0428 22:17:08.000000 21044 kidnap_detection.cc:36] weight slow is 12.6985[0m
+[0m[ INFO] [1588133828.398659035, 51.428644372]: I0428 22:17:08.000000 21142 constraint_builder_2d.cc:281] 1 computations resulted in 0 additional constraints.[0m
+[0m[ INFO] [1588133828.398877382, 51.438707766]: I0428 22:17:08.000000 21142 constraint_builder_2d.cc:283] Score histogram:
+Count: 4  Min: 0.650451  Max: 0.691247  Mean: 0.661478
+[0.650451, 0.654531)	     ###############	Count: 3 (75.000000%)	Total: 3 (75.000000%)
+[0.654531, 0.658610)	                    	Count: 0 (0.000000%)	Total: 3 (75.000000%)
+[0.658610, 0.662690)	                    	Count: 0 (0.000000%)	Total: 3 (75.000000%)
+[0.662690, 0.666770)	                    	Count: 0 (0.000000%)	Total: 3 (75.000000%)
+[0.666770, 0.670849)	                    	Count: 0 (0.000000%)	Total: 3 (75.000000%)
+[0.670849, 0.674929)	                    	Count: 0 (0.000000%)	Total: 3 (75.000000%)
+[0.674929, 0.679008)	                    	Count: 0 (0.000000%)	Total: 3 (75.000000%)
+[0.679008, 0.683088)	                    	Count: 0 (0.000000%)	Total: 3 (75.000000%)
+[0.683088, 0.687167)	                    	Count: 0 (0.000000%)	Total: 3 (75.000000%)
+[0.687167, 0.691247]	               #####	Count: 1 (25.000000%)	Total: 4 (100.000000%)[0m
+[0m[ INFO] [1588133828.611868310, 51.650259562]: I0428 22:17:08.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0776952[0m
+[0m[ INFO] [1588133828.611917745, 51.650259562]: I0428 22:17:08.000000 21044 kidnap_detection.cc:35] weight fast is 13.0749[0m
+[0m[ INFO] [1588133828.611946470, 51.650259562]: I0428 22:17:08.000000 21044 kidnap_detection.cc:36] weight slow is 12.733[0m
+[0m[ INFO] [1588133828.825146877, 51.861963799]: I0428 22:17:08.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0778725[0m
+[0m[ INFO] [1588133828.825197675, 51.861963799]: I0428 22:17:08.000000 21044 kidnap_detection.cc:35] weight fast is 12.9115[0m
+[0m[ INFO] [1588133828.825232601, 51.861963799]: I0428 22:17:08.000000 21044 kidnap_detection.cc:36] weight slow is 12.7547[0m
+[0m[ INFO] [1588133828.967469738, 52.003222464]: I0428 22:17:08.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0579241[0m
+[0m[ INFO] [1588133828.967519593, 52.003222464]: I0428 22:17:08.000000 21044 kidnap_detection.cc:35] weight fast is 15.9582[0m
+[0m[ INFO] [1588133828.967548478, 52.003222464]: I0428 22:17:08.000000 21044 kidnap_detection.cc:36] weight slow is 13.6565[0m
+[0m[ INFO] [1588133829.183304109, 52.214882183]: I0428 22:17:09.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0564886[0m
+[0m[ INFO] [1588133829.183387679, 52.214882183]: I0428 22:17:09.000000 21044 kidnap_detection.cc:35] weight fast is 17.1794[0m
+[0m[ INFO] [1588133829.183426042, 52.214882183]: I0428 22:17:09.000000 21044 kidnap_detection.cc:36] weight slow is 14.4658[0m
+[0m[ INFO] [1588133829.396744933, 52.426647853]: I0428 22:17:09.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0518832[0m
+[0m[ INFO] [1588133829.396815388, 52.426647853]: I0428 22:17:09.000000 21044 kidnap_detection.cc:35] weight fast is 18.6457[0m
+[0m[ INFO] [1588133829.396863931, 52.436707359]: I0428 22:17:09.000000 21044 kidnap_detection.cc:36] weight slow is 15.4274[0m
+[0m[ INFO] [1588133829.611968366, 52.648431661]: I0428 22:17:09.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0553987[0m
+[0m[ INFO] [1588133829.612015265, 52.648431661]: I0428 22:17:09.000000 21044 kidnap_detection.cc:35] weight fast is 18.2294[0m
+[0m[ INFO] [1588133829.612043750, 52.648431661]: I0428 22:17:09.000000 21044 kidnap_detection.cc:36] weight slow is 15.9521[0m
+[0m[ INFO] [1588133829.827521809, 52.860130223]: I0428 22:17:09.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0522276[0m
+[0m[ INFO] [1588133829.827572917, 52.860130223]: I0428 22:17:09.000000 21044 kidnap_detection.cc:35] weight fast is 18.8717[0m
+[0m[ INFO] [1588133829.827609417, 52.860130223]: I0428 22:17:09.000000 21044 kidnap_detection.cc:36] weight slow is 16.5911[0m
+[0m[ INFO] [1588133829.967978068, 53.001222999]: I0428 22:17:09.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.106739[0m
+[0m[ INFO] [1588133829.968044655, 53.001222999]: I0428 22:17:09.000000 21044 kidnap_detection.cc:35] weight fast is 12.2196[0m
+[0m[ INFO] [1588133829.968103057, 53.001222999]: I0428 22:17:09.000000 21044 kidnap_detection.cc:36] weight slow is 15.1466[0m
+[0m[ INFO] [1588133830.183440855, 53.222950015]: I0428 22:17:10.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0641451[0m
+[0m[ INFO] [1588133830.183491833, 53.222950015]: I0428 22:17:10.000000 21044 kidnap_detection.cc:35] weight fast is 14.5786[0m
+[0m[ INFO] [1588133830.183525737, 53.222950015]: I0428 22:17:10.000000 21044 kidnap_detection.cc:36] weight slow is 15.2352[0m
+[0m[ INFO] [1588133830.396469768, 53.434506762]: I0428 22:17:10.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0610513[0m
+[0m[ INFO] [1588133830.396496899, 53.434506762]: I0428 22:17:10.000000 21044 kidnap_detection.cc:35] weight fast is 15.8394[0m
+[0m[ INFO] [1588133830.396512058, 53.434506762]: I0428 22:17:10.000000 21044 kidnap_detection.cc:36] weight slow is 15.4641[0m
+[0m[ INFO] [1588133830.608873094, 53.646512608]: I0428 22:17:10.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0680498[0m
+[0m[ INFO] [1588133830.608901288, 53.646512608]: I0428 22:17:10.000000 21044 kidnap_detection.cc:35] weight fast is 15.0384[0m
+[0m[ INFO] [1588133830.608918781, 53.646512608]: I0428 22:17:10.000000 21044 kidnap_detection.cc:36] weight slow is 15.3103[0m
+[0m[ INFO] [1588133830.825542929, 53.858371874]: I0428 22:17:10.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0695981[0m
+[0m[ INFO] [1588133830.825589308, 53.858371874]: I0428 22:17:10.000000 21044 kidnap_detection.cc:35] weight fast is 14.5693[0m
+[0m[ INFO] [1588133830.825620968, 53.858371874]: I0428 22:17:10.000000 21044 kidnap_detection.cc:36] weight slow is 15.1219[0m
+[0m[ INFO] [1588133830.967013635, 53.999277710]: I0428 22:17:10.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0658157[0m
+[0m[ INFO] [1588133830.967045856, 53.999277710]: I0428 22:17:10.000000 21044 kidnap_detection.cc:35] weight fast is 15.0065[0m
+[0m[ INFO] [1588133830.967064342, 53.999277710]: I0428 22:17:10.000000 21044 kidnap_detection.cc:36] weight slow is 15.1363[0m
+[0m[ INFO] [1588133831.181146906, 54.211017665]: I0428 22:17:11.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.059204[0m
+[0m[ INFO] [1588133831.181246817, 54.221100676]: I0428 22:17:11.000000 21044 kidnap_detection.cc:35] weight fast is 16.3255[0m
+[0m[ INFO] [1588133831.181303445, 54.221100676]: I0428 22:17:11.000000 21044 kidnap_detection.cc:36] weight slow is 15.4872[0m
+[0m[ INFO] [1588133831.397179488, 54.433071712]: I0428 22:17:11.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0644302[0m
+[0m[ INFO] [1588133831.397228973, 54.433071712]: I0428 22:17:11.000000 21044 kidnap_detection.cc:35] weight fast is 15.7621[0m
+[0m[ INFO] [1588133831.397262197, 54.433071712]: I0428 22:17:11.000000 21044 kidnap_detection.cc:36] weight slow is 15.4939[0m
+[0m[ INFO] [1588133831.611532058, 54.644549654]: I0428 22:17:11.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0627545[0m
+[0m[ INFO] [1588133831.611570161, 54.644549654]: I0428 22:17:11.000000 21044 kidnap_detection.cc:35] weight fast is 15.8832[0m
+[0m[ INFO] [1588133831.611598896, 54.644549654]: I0428 22:17:11.000000 21044 kidnap_detection.cc:36] weight slow is 15.5821[0m
+[0m[ INFO] [1588133831.823328370, 54.856582328]: I0428 22:17:11.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.066061[0m
+[0m[ INFO] [1588133831.823362124, 54.856582328]: I0428 22:17:11.000000 21044 kidnap_detection.cc:35] weight fast is 15.3612[0m
+[0m[ INFO] [1588133831.823386541, 54.856582328]: I0428 22:17:11.000000 21044 kidnap_detection.cc:36] weight slow is 15.4932[0m
+[0m[ INFO] [1588133831.966990253, 54.997760943]: I0428 22:17:11.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.051917[0m
+[0m[ INFO] [1588133831.967035971, 54.997760943]: I0428 22:17:11.000000 21044 kidnap_detection.cc:35] weight fast is 18.0914[0m
+[0m[ INFO] [1588133831.967063924, 54.997760943]: I0428 22:17:11.000000 21044 kidnap_detection.cc:36] weight slow is 16.2469[0m
+[0m[ INFO] [1588133832.182495484, 55.219191104]: I0428 22:17:12.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0663708[0m
+[0m[ INFO] [1588133832.182545390, 55.219191104]: I0428 22:17:12.000000 21044 kidnap_detection.cc:35] weight fast is 15.9742[0m
+[0m[ INFO] [1588133832.182583783, 55.219191104]: I0428 22:17:12.000000 21044 kidnap_detection.cc:36] weight slow is 16.0109[0m
+[0m[ INFO] [1588133832.396660983, 55.431056183]: I0428 22:17:12.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0732249[0m
+[0m[ INFO] [1588133832.396706570, 55.431056183]: I0428 22:17:12.000000 21044 kidnap_detection.cc:35] weight fast is 14.3519[0m
+[0m[ INFO] [1588133832.396734583, 55.431056183]: I0428 22:17:12.000000 21044 kidnap_detection.cc:36] weight slow is 15.54[0m
+[0m[ INFO] [1588133832.611463159, 55.642892899]: I0428 22:17:12.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0790446[0m
+[0m[ INFO] [1588133832.611509056, 55.642892899]: I0428 22:17:12.000000 21044 kidnap_detection.cc:35] weight fast is 13.1613[0m
+[0m[ INFO] [1588133832.611536529, 55.642892899]: I0428 22:17:12.000000 21044 kidnap_detection.cc:36] weight slow is 14.9622[0m
+[0m[ INFO] [1588133832.826373581, 55.864490879]: I0428 22:17:12.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0861261[0m
+[0m[ INFO] [1588133832.826425140, 55.864490879]: I0428 22:17:12.000000 21044 kidnap_detection.cc:35] weight fast is 12.076[0m
+[0m[ INFO] [1588133832.826465988, 55.864490879]: I0428 22:17:12.000000 21044 kidnap_detection.cc:36] weight slow is 14.292[0m
+[0m[ INFO] [1588133832.967286486, 56.005852983]: I0428 22:17:12.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.071699[0m
+[0m[ INFO] [1588133832.967316653, 56.005852983]: I0428 22:17:12.000000 21044 kidnap_detection.cc:35] weight fast is 13.3858[0m
+[0m[ INFO] [1588133832.967336120, 56.005852983]: I0428 22:17:12.000000 21044 kidnap_detection.cc:36] weight slow is 14.223[0m
+[0m[ INFO] [1588133833.182448366, 56.217625583]: I0428 22:17:13.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0671238[0m
+[0m[ INFO] [1588133833.182534871, 56.217625583]: I0428 22:17:13.000000 21044 kidnap_detection.cc:35] weight fast is 14.4442[0m
+[0m[ INFO] [1588133833.182570309, 56.217625583]: I0428 22:17:13.000000 21044 kidnap_detection.cc:36] weight slow is 14.358[0m
+[0m[ INFO] [1588133833.396422855, 56.429106634]: I0428 22:17:13.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0514331[0m
+[0m[ INFO] [1588133833.396452883, 56.429106634]: I0428 22:17:13.000000 21044 kidnap_detection.cc:35] weight fast is 17.9432[0m
+[0m[ INFO] [1588133833.396470887, 56.429106634]: I0428 22:17:13.000000 21044 kidnap_detection.cc:36] weight slow is 15.3749[0m
+[0m[ INFO] [1588133833.611172737, 56.650954288]: I0428 22:17:13.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0528417[0m
+[0m[ INFO] [1588133833.611219898, 56.650954288]: I0428 22:17:13.000000 21044 kidnap_detection.cc:35] weight fast is 18.6301[0m
+[0m[ INFO] [1588133833.611251368, 56.650954288]: I0428 22:17:13.000000 21044 kidnap_detection.cc:36] weight slow is 16.0848[0m
+[0m[ INFO] [1588133833.825231167, 56.862665600]: I0428 22:17:13.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0548797[0m
+[0m[ INFO] [1588133833.825278698, 56.862665600]: I0428 22:17:13.000000 21044 kidnap_detection.cc:35] weight fast is 18.3442[0m
+[0m[ INFO] [1588133833.825308215, 56.862665600]: I0428 22:17:13.000000 21044 kidnap_detection.cc:36] weight slow is 16.5122[0m
+[0m[ INFO] [1588133833.967709563, 57.003846033]: I0428 22:17:13.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.060803[0m
+[0m[ INFO] [1588133833.967760109, 57.003846033]: I0428 22:17:13.000000 21044 kidnap_detection.cc:35] weight fast is 17.0158[0m
+[0m[ INFO] [1588133833.967792431, 57.003846033]: I0428 22:17:13.000000 21044 kidnap_detection.cc:36] weight slow is 16.4991[0m
+[0m[ INFO] [1588133834.182244441, 57.215481908]: I0428 22:17:14.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0576853[0m
+[0m[ INFO] [1588133834.182295168, 57.215481908]: I0428 22:17:14.000000 21044 kidnap_detection.cc:35] weight fast is 17.2396[0m
+[0m[ INFO] [1588133834.182352888, 57.215481908]: I0428 22:17:14.000000 21044 kidnap_detection.cc:36] weight slow is 16.6663[0m
+[0m[ INFO] [1588133834.397097797, 57.427254103]: I0428 22:17:14.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0596977[0m
+[0m[ INFO] [1588133834.397162822, 57.427254103]: I0428 22:17:14.000000 21044 kidnap_detection.cc:35] weight fast is 16.8976[0m
+[0m[ INFO] [1588133834.397209812, 57.427254103]: I0428 22:17:14.000000 21044 kidnap_detection.cc:36] weight slow is 16.6833[0m
+[0m[ INFO] [1588133834.611735080, 57.648975852]: I0428 22:17:14.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0558543[0m
+[0m[ INFO] [1588133834.611799794, 57.648975852]: I0428 22:17:14.000000 21044 kidnap_detection.cc:35] weight fast is 17.6019[0m
+[0m[ INFO] [1588133834.611847716, 57.648975852]: I0428 22:17:14.000000 21044 kidnap_detection.cc:36] weight slow is 16.9274[0m
+[0m[ INFO] [1588133834.825757327, 57.860873367]: I0428 22:17:14.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0450184[0m
+[0m[ INFO] [1588133834.825804407, 57.860873367]: I0428 22:17:14.000000 21044 kidnap_detection.cc:35] weight fast is 20.8298[0m
+[0m[ INFO] [1588133834.825852139, 57.860873367]: I0428 22:17:14.000000 21044 kidnap_detection.cc:36] weight slow is 17.9845[0m
+[0m[ INFO] [1588133834.967392127, 58.002288867]: I0428 22:17:14.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0496919[0m
+[0m[ INFO] [1588133834.967442133, 58.002288867]: I0428 22:17:14.000000 21044 kidnap_detection.cc:35] weight fast is 20.3357[0m
+[0m[ INFO] [1588133834.967474635, 58.002288867]: I0428 22:17:14.000000 21044 kidnap_detection.cc:36] weight slow is 18.4124[0m
+[0m[ INFO] [1588133835.182223799, 58.213936881]: I0428 22:17:15.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0450893[0m
+[0m[ INFO] [1588133835.182302379, 58.213936881]: I0428 22:17:15.000000 21044 kidnap_detection.cc:35] weight fast is 21.6255[0m
+[0m[ INFO] [1588133835.182340782, 58.213936881]: I0428 22:17:15.000000 21044 kidnap_detection.cc:36] weight slow is 19.1656[0m
+[0m[ INFO] [1588133835.395738021, 58.425774527]: I0428 22:17:15.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0496181[0m
+[0m[ INFO] [1588133835.395769020, 58.425774527]: I0428 22:17:15.000000 21044 kidnap_detection.cc:35] weight fast is 20.5954[0m
+[0m[ INFO] [1588133835.395794248, 58.425774527]: I0428 22:17:15.000000 21044 kidnap_detection.cc:36] weight slow is 19.3633[0m
+[0m[ INFO] [1588133835.396931413, 58.435836257]: I0428 22:17:15.000000 21044 submap_2d.cc:187] Added submap 3[0m
+[0m[ INFO] [1588133835.440231349, 58.476162256]: I0428 22:17:15.000000 21143 constraint_builder_2d.cc:266] Node (0, 0) with 101 points on submap (1, 0) matches with score 66.2%.[0m
+[0m[ INFO] [1588133835.611178315, 58.647909222]: I0428 22:17:15.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0454069[0m
+[0m[ INFO] [1588133835.611227459, 58.647909222]: I0428 22:17:15.000000 21044 kidnap_detection.cc:35] weight fast is 21.5948[0m
+[0m[ INFO] [1588133835.611262376, 58.647909222]: I0428 22:17:15.000000 21044 kidnap_detection.cc:36] weight slow is 19.8952[0m
+[0m[ INFO] [1588133835.825708640, 58.859370960]: I0428 22:17:15.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0417915[0m
+[0m[ INFO] [1588133835.825754859, 58.859370960]: I0428 22:17:15.000000 21044 kidnap_detection.cc:35] weight fast is 23.2283[0m
+[0m[ INFO] [1588133835.825808732, 58.859370960]: I0428 22:17:15.000000 21044 kidnap_detection.cc:36] weight slow is 20.7018[0m
+[0m[ INFO] [1588133835.826864049, 58.859370960]: I0428 22:17:15.000000 21143 constraint_builder_2d.cc:281] 1 computations resulted in 1 additional constraints.[0m
+[0m[ INFO] [1588133835.827029977, 58.859370960]: I0428 22:17:15.000000 21143 constraint_builder_2d.cc:283] Score histogram:
+Count: 5  Min: 0.650451  Max: 0.691247  Mean: 0.661652
+[0.650451, 0.654531)	        ############	Count: 3 (60.000000%)	Total: 3 (60.000000%)
+[0.654531, 0.658610)	                    	Count: 0 (0.000000%)	Total: 3 (60.000000%)
+[0.658610, 0.662690)	                ####	Count: 1 (20.000000%)	Total: 4 (80.000000%)
+[0.662690, 0.666770)	                    	Count: 0 (0.000000%)	Total: 4 (80.000000%)
+[0.666770, 0.670849)	                    	Count: 0 (0.000000%)	Total: 4 (80.000000%)
+[0.670849, 0.674929)	                    	Count: 0 (0.000000%)	Total: 4 (80.000000%)
+[0.674929, 0.679008)	                    	Count: 0 (0.000000%)	Total: 4 (80.000000%)
+[0.679008, 0.683088)	                    	Count: 0 (0.000000%)	Total: 4 (80.000000%)
+[0.683088, 0.687167)	                    	Count: 0 (0.000000%)	Total: 4 (80.000000%)
+[0.687167, 0.691247]	                ####	Count: 1 (20.000000%)	Total: 5 (100.000000%)[0m
+[0m[ INFO] [1588133835.967214010, 59.000992983]: I0428 22:17:15.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0439012[0m
+[0m[ INFO] [1588133835.967263625, 59.000992983]: I0428 22:17:15.000000 21044 kidnap_detection.cc:35] weight fast is 22.9134[0m
+[0m[ INFO] [1588133835.967299003, 59.000992983]: I0428 22:17:15.000000 21044 kidnap_detection.cc:36] weight slow is 21.1172[0m
+[0m[ INFO] [1588133836.181857438, 59.212813633]: I0428 22:17:16.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0377367[0m
+[0m[ INFO] [1588133836.181907974, 59.212813633]: I0428 22:17:16.000000 21044 kidnap_detection.cc:35] weight fast is 25.4236[0m
+[0m[ INFO] [1588133836.181943623, 59.212813633]: I0428 22:17:16.000000 21044 kidnap_detection.cc:36] weight slow is 22.1936[0m
+[0m[ INFO] [1588133836.190841246, 59.222875593]: I0428 22:17:16.000000 21145 constraint_builder_2d.cc:266] Node (1, 73) with 103 points on submap (1, 0) differs by translation 0.02 rotation 0.013 with score 73.4%.[0m
+[0m[ INFO] [1588133836.396141398, 59.434318370]: I0428 22:17:16.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0405082[0m
+[0m[ INFO] [1588133836.396216191, 59.434318370]: I0428 22:17:16.000000 21044 kidnap_detection.cc:35] weight fast is 24.9075[0m
+[0m[ INFO] [1588133836.396260876, 59.434318370]: I0428 22:17:16.000000 21044 kidnap_detection.cc:36] weight slow is 22.6922[0m
+[0m[ INFO] [1588133836.611511093, 59.646466756]: I0428 22:17:16.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0384623[0m
+[0m[ INFO] [1588133836.611541922, 59.646466756]: I0428 22:17:16.000000 21044 kidnap_detection.cc:35] weight fast is 25.6719[0m
+[0m[ INFO] [1588133836.611560338, 59.646466756]: I0428 22:17:16.000000 21044 kidnap_detection.cc:36] weight slow is 23.3536[0m
+[0m[ INFO] [1588133836.826031275, 59.858210048]: I0428 22:17:16.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0397517[0m
+[0m[ INFO] [1588133836.826081111, 59.858210048]: I0428 22:17:16.000000 21044 kidnap_detection.cc:35] weight fast is 25.3109[0m
+[0m[ INFO] [1588133836.826117049, 59.858210048]: I0428 22:17:16.000000 21044 kidnap_detection.cc:36] weight slow is 23.7141[0m
+[0m[ INFO] [1588133836.966577238, 59.999099688]: I0428 22:17:16.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0470275[0m
+[0m[ INFO] [1588133836.966628396, 59.999099688]: I0428 22:17:16.000000 21044 kidnap_detection.cc:35] weight fast is 22.4782[0m
+[0m[ INFO] [1588133836.966659114, 59.999099688]: I0428 22:17:16.000000 21044 kidnap_detection.cc:36] weight slow is 23.2241[0m
+[0m[ INFO] [1588133837.180996253, 60.220928963]: I0428 22:17:17.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0445208[0m
+[0m[ INFO] [1588133837.181028815, 60.220928963]: I0428 22:17:17.000000 21044 kidnap_detection.cc:35] weight fast is 22.4664[0m
+[0m[ INFO] [1588133837.181049936, 60.220928963]: I0428 22:17:17.000000 21044 kidnap_detection.cc:36] weight slow is 23.0716[0m
+[0m[ INFO] [1588133837.188423826, 60.220928963]: I0428 22:17:17.000000 21144 constraint_builder_2d.cc:266] Node (1, 78) with 103 points on submap (1, 0) differs by translation 0.02 rotation 0.015 with score 73.9%.[0m
+[0m[ INFO] [1588133837.395990037, 60.432667512]: I0428 22:17:17.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0567398[0m
+[0m[ INFO] [1588133837.396034692, 60.432667512]: I0428 22:17:17.000000 21044 kidnap_detection.cc:35] weight fast is 19.077[0m
+[0m[ INFO] [1588133837.396066072, 60.432667512]: I0428 22:17:17.000000 21044 kidnap_detection.cc:36] weight slow is 21.9821[0m
+[0m[ INFO] [1588133837.611039396, 60.644123421]: I0428 22:17:17.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0526552[0m
+[0m[ INFO] [1588133837.611070315, 60.644123421]: I0428 22:17:17.000000 21044 kidnap_detection.cc:35] weight fast is 19.0171[0m
+[0m[ INFO] [1588133837.611089823, 60.644123421]: I0428 22:17:17.000000 21044 kidnap_detection.cc:36] weight slow is 21.384[0m
+[0m[ INFO] [1588133837.825387184, 60.855887097]: I0428 22:17:17.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0577142[0m
+[0m[ INFO] [1588133837.825443733, 60.855887097]: I0428 22:17:17.000000 21044 kidnap_detection.cc:35] weight fast is 17.8339[0m
+[0m[ INFO] [1588133837.825485302, 60.855887097]: I0428 22:17:17.000000 21044 kidnap_detection.cc:36] weight slow is 20.5726[0m
+[0m[ INFO] [1588133837.967498097, 61.007209564]: I0428 22:17:17.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.058552[0m
+[0m[ INFO] [1588133837.967539977, 61.007209564]: I0428 22:17:17.000000 21044 kidnap_detection.cc:35] weight fast is 17.3053[0m
+[0m[ INFO] [1588133837.967572770, 61.007209564]: I0428 22:17:17.000000 21044 kidnap_detection.cc:36] weight slow is 19.8738[0m
+[0m[ INFO] [1588133838.181575145, 61.219179142]: I0428 22:17:18.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0508407[0m
+[0m[ INFO] [1588133838.181633146, 61.219179142]: I0428 22:17:18.000000 21044 kidnap_detection.cc:35] weight fast is 18.9601[0m
+[0m[ INFO] [1588133838.181676970, 61.219179142]: I0428 22:17:18.000000 21044 kidnap_detection.cc:36] weight slow is 19.8329[0m
+[0m[ INFO] [1588133838.195947917, 61.229253154]: I0428 22:17:18.000000 21145 constraint_builder_2d.cc:266] Node (1, 83) with 101 points on submap (1, 0) differs by translation 0.03 rotation 0.021 with score 67.7%.[0m
+[0m[ INFO] [1588133838.396011118, 61.431306330]: I0428 22:17:18.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0489057[0m
+[0m[ INFO] [1588133838.396050253, 61.431306330]: I0428 22:17:18.000000 21044 kidnap_detection.cc:35] weight fast is 20.0013[0m
+[0m[ INFO] [1588133838.396078847, 61.431306330]: I0428 22:17:18.000000 21044 kidnap_detection.cc:36] weight slow is 19.9558[0m
+[0m[ INFO] [1588133838.610985801, 61.643232013]: I0428 22:17:18.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0445764[0m
+[0m[ INFO] [1588133838.611035696, 61.643232013]: I0428 22:17:18.000000 21044 kidnap_detection.cc:35] weight fast is 21.7038[0m
+[0m[ INFO] [1588133838.611075873, 61.643232013]: I0428 22:17:18.000000 21044 kidnap_detection.cc:36] weight slow is 20.4513[0m
+[0m[ INFO] [1588133838.819286402, 61.854831743]: I0428 22:17:18.000000 21044 collated_trajectory_builder.cc:72] scan rate: 5.00 Hz 2.00e-01 s +/- 2.97e-02 s (pulsed at 100.00% real time)[0m
+[0m[ INFO] [1588133838.825561962, 61.864915535]: I0428 22:17:18.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0521545[0m
+[0m[ INFO] [1588133838.825601859, 61.864915535]: I0428 22:17:18.000000 21044 kidnap_detection.cc:35] weight fast is 19.9328[0m
+[0m[ INFO] [1588133838.825631976, 61.864915535]: I0428 22:17:18.000000 21044 kidnap_detection.cc:36] weight slow is 20.1958[0m
+[0m[ INFO] [1588133838.966973345, 62.006177081]: I0428 22:17:18.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0600252[0m
+[0m[ INFO] [1588133838.967026457, 62.006177081]: I0428 22:17:18.000000 21044 kidnap_detection.cc:35] weight fast is 17.6416[0m
+[0m[ INFO] [1588133838.967061774, 62.006177081]: I0428 22:17:18.000000 21044 kidnap_detection.cc:36] weight slow is 19.4886[0m
+[0m[ INFO] [1588133839.180879672, 62.218341407]: I0428 22:17:19.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0516463[0m
+[0m[ INFO] [1588133839.180927303, 62.218341407]: I0428 22:17:19.000000 21044 kidnap_detection.cc:35] weight fast is 18.8462[0m
+[0m[ INFO] [1588133839.180958282, 62.218341407]: I0428 22:17:19.000000 21044 kidnap_detection.cc:36] weight slow is 19.4634[0m
+[0m[ INFO] [1588133839.190866287, 62.228410991]: I0428 22:17:19.000000 21143 constraint_builder_2d.cc:266] Node (1, 88) with 108 points on submap (1, 0) differs by translation 0.04 rotation 0.036 with score 70.1%.[0m
+[0m[ INFO] [1588133839.396396178, 62.429997441]: I0428 22:17:19.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0554156[0m
+[0m[ INFO] [1588133839.396430403, 62.429997441]: I0428 22:17:19.000000 21044 kidnap_detection.cc:35] weight fast is 18.2857[0m
+[0m[ INFO] [1588133839.396448338, 62.429997441]: I0428 22:17:19.000000 21044 kidnap_detection.cc:36] weight slow is 19.1798[0m
+[0m[ INFO] [1588133839.611764740, 62.642195932]: I0428 22:17:19.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.05417[0m
+[0m[ INFO] [1588133839.611811590, 62.642195932]: I0428 22:17:19.000000 21044 kidnap_detection.cc:35] weight fast is 18.408[0m
+[0m[ INFO] [1588133839.611865312, 62.642195932]: I0428 22:17:19.000000 21044 kidnap_detection.cc:36] weight slow is 19.0359[0m
+[0m[ INFO] [1588133839.827211422, 62.863957368]: I0428 22:17:19.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0503509[0m
+[0m[ INFO] [1588133839.827263331, 62.863957368]: I0428 22:17:19.000000 21044 kidnap_detection.cc:35] weight fast is 19.4248[0m
+[0m[ INFO] [1588133839.827295413, 62.863957368]: I0428 22:17:19.000000 21044 kidnap_detection.cc:36] weight slow is 19.2009[0m
+[0m[ INFO] [1588133839.967337735, 63.005381052]: I0428 22:17:19.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0766524[0m
+[0m[ INFO] [1588133839.967405374, 63.005381052]: I0428 22:17:19.000000 21044 kidnap_detection.cc:35] weight fast is 14.9596[0m
+[0m[ INFO] [1588133839.967425553, 63.005381052]: I0428 22:17:19.000000 21044 kidnap_detection.cc:36] weight slow is 17.9699[0m
+[0m[ INFO] [1588133840.182607295, 63.217545665]: I0428 22:17:20.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0491514[0m
+[0m[ INFO] [1588133840.182658513, 63.217545665]: I0428 22:17:20.000000 21044 kidnap_detection.cc:35] weight fast is 18.7296[0m
+[0m[ INFO] [1588133840.182700874, 63.217545665]: I0428 22:17:20.000000 21044 kidnap_detection.cc:36] weight slow is 18.445[0m
+[0m[ INFO] [1588133840.396032147, 63.429322897]: I0428 22:17:20.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0507235[0m
+[0m[ INFO] [1588133840.396062976, 63.429322897]: I0428 22:17:20.000000 21044 kidnap_detection.cc:35] weight fast is 19.4192[0m
+[0m[ INFO] [1588133840.396081521, 63.429322897]: I0428 22:17:20.000000 21044 kidnap_detection.cc:36] weight slow is 18.6989[0m
+[0m[ INFO] [1588133840.612180267, 63.651490837]: I0428 22:17:20.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0526681[0m
+[0m[ INFO] [1588133840.612229471, 63.651490837]: I0428 22:17:20.000000 21044 kidnap_detection.cc:35] weight fast is 19.1165[0m
+[0m[ INFO] [1588133840.612271251, 63.651490837]: I0428 22:17:20.000000 21044 kidnap_detection.cc:36] weight slow is 18.7565[0m
+[0m[ INFO] [1588133840.826666037, 63.863144552]: I0428 22:17:20.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0514065[0m
+[0m[ INFO] [1588133840.826712636, 63.863144552]: I0428 22:17:20.000000 21044 kidnap_detection.cc:35] weight fast is 19.3519[0m
+[0m[ INFO] [1588133840.826748865, 63.863144552]: I0428 22:17:20.000000 21044 kidnap_detection.cc:36] weight slow is 18.8958[0m
+[0m[ INFO] [1588133840.967452110, 64.004414460]: I0428 22:17:20.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0451739[0m
+[0m[ INFO] [1588133840.967484141, 64.004414460]: I0428 22:17:20.000000 21044 kidnap_detection.cc:35] weight fast is 21.3012[0m
+[0m[ INFO] [1588133840.967502726, 64.004414460]: I0428 22:17:20.000000 21044 kidnap_detection.cc:36] weight slow is 19.5439[0m
+[0m[ INFO] [1588133840.971274458, 64.004414460]: I0428 22:17:20.000000 21142 constraint_builder_2d.cc:266] Node (1, 93) with 102 points on submap (1, 0) differs by translation 0.00 rotation 0.000 with score 77.1%.[0m
+[0m[ INFO] [1588133841.182381566, 64.216755617]: I0428 22:17:21.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0526097[0m
+[0m[ INFO] [1588133841.182433095, 64.216755617]: I0428 22:17:21.000000 21044 kidnap_detection.cc:35] weight fast is 19.6959[0m
+[0m[ INFO] [1588133841.182464765, 64.216755617]: I0428 22:17:21.000000 21044 kidnap_detection.cc:36] weight slow is 19.4367[0m
+[0m[ INFO] [1588133841.395546557, 64.428829272]: I0428 22:17:21.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0747932[0m
+[0m[ INFO] [1588133841.395576505, 64.428829272]: I0428 22:17:21.000000 21044 kidnap_detection.cc:35] weight fast is 15.2679[0m
+[0m[ INFO] [1588133841.395594669, 64.428829272]: I0428 22:17:21.000000 21044 kidnap_detection.cc:36] weight slow is 18.2234[0m
+[0m[ INFO] [1588133841.610659003, 64.640627360]: I0428 22:17:21.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0640984[0m
+[0m[ INFO] [1588133841.610714389, 64.640627360]: I0428 22:17:21.000000 21044 kidnap_detection.cc:35] weight fast is 15.5011[0m
+[0m[ INFO] [1588133841.610778552, 64.640627360]: I0428 22:17:21.000000 21044 kidnap_detection.cc:36] weight slow is 17.6989[0m
+[0m[ INFO] [1588133841.824255780, 64.862984307]: I0428 22:17:21.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0687258[0m
+[0m[ INFO] [1588133841.824305275, 64.862984307]: I0428 22:17:21.000000 21044 kidnap_detection.cc:35] weight fast is 14.8357[0m
+[0m[ INFO] [1588133841.824338809, 64.862984307]: I0428 22:17:21.000000 21044 kidnap_detection.cc:36] weight slow is 17.0693[0m
+[0m[ INFO] [1588133841.965341904, 65.003989086]: I0428 22:17:21.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0811998[0m
+[0m[ INFO] [1588133841.965391469, 65.003989086]: I0428 22:17:21.000000 21044 kidnap_detection.cc:35] weight fast is 13.0714[0m
+[0m[ INFO] [1588133841.965430383, 65.003989086]: I0428 22:17:21.000000 21044 kidnap_detection.cc:36] weight slow is 16.1185[0m
+[0m[ INFO] [1588133842.180790218, 65.215976693]: I0428 22:17:22.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0720899[0m
+[0m[ INFO] [1588133842.180841276, 65.215976693]: I0428 22:17:22.000000 21044 kidnap_detection.cc:35] weight fast is 13.6315[0m
+[0m[ INFO] [1588133842.180873387, 65.215976693]: I0428 22:17:22.000000 21044 kidnap_detection.cc:36] weight slow is 15.6691[0m
+[0m[ INFO] [1588133842.189112752, 65.226058440]: I0428 22:17:22.000000 21145 constraint_builder_2d.cc:266] Node (1, 98) with 103 points on submap (1, 0) differs by translation 0.03 rotation 0.026 with score 71.2%.[0m
+[0m[ INFO] [1588133842.394925662, 65.428045124]: I0428 22:17:22.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0823842[0m
+[0m[ INFO] [1588133842.394975748, 65.428045124]: I0428 22:17:22.000000 21044 kidnap_detection.cc:35] weight fast is 12.5862[0m
+[0m[ INFO] [1588133842.395015324, 65.428045124]: I0428 22:17:22.000000 21044 kidnap_detection.cc:36] weight slow is 14.9629[0m
+[0m[ INFO] [1588133842.608752986, 65.639552834]: I0428 22:17:22.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0830262[0m
+[0m[ INFO] [1588133842.608784437, 65.639552834]: I0428 22:17:22.000000 21044 kidnap_detection.cc:35] weight fast is 12.2069[0m
+[0m[ INFO] [1588133842.608802631, 65.639552834]: I0428 22:17:22.000000 21044 kidnap_detection.cc:36] weight slow is 14.3792[0m
+[0m[ INFO] [1588133842.824981031, 65.861193147]: I0428 22:17:22.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0671781[0m
+[0m[ INFO] [1588133842.825028001, 65.861193147]: I0428 22:17:22.000000 21044 kidnap_detection.cc:35] weight fast is 14.0821[0m
+[0m[ INFO] [1588133842.825056115, 65.861193147]: I0428 22:17:22.000000 21044 kidnap_detection.cc:36] weight slow is 14.4805[0m
+[0m[ INFO] [1588133842.966322110, 66.002174047]: I0428 22:17:22.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0592969[0m
+[0m[ INFO] [1588133842.966372547, 66.002174047]: I0428 22:17:22.000000 21044 kidnap_detection.cc:35] weight fast is 16.0296[0m
+[0m[ INFO] [1588133842.966405580, 66.002174047]: I0428 22:17:22.000000 21044 kidnap_detection.cc:36] weight slow is 14.9573[0m
+[0m[ INFO] [1588133842.981140072, 66.012229253]: I0428 22:17:22.000000 21143 constraint_builder_2d.cc:266] Node (1, 102) with 103 points on submap (0, 0) differs by translation 0.03 rotation 0.016 with score 65.3%.[0m
+[0m[ INFO] [1588133843.181233334, 66.213604836]: I0428 22:17:23.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0550426[0m
+[0m[ INFO] [1588133843.181291645, 66.213604836]: I0428 22:17:23.000000 21044 kidnap_detection.cc:35] weight fast is 17.5263[0m
+[0m[ INFO] [1588133843.181333145, 66.213604836]: I0428 22:17:23.000000 21044 kidnap_detection.cc:36] weight slow is 15.5994[0m
+[0m[ INFO] [1588133843.191211953, 66.223665573]: I0428 22:17:23.000000 21145 constraint_builder_2d.cc:266] Node (1, 103) with 103 points on submap (1, 0) differs by translation 0.01 rotation 0.005 with score 70.8%.[0m
+[0m[ INFO] [1588133843.395397128, 66.425181323]: I0428 22:17:23.000000 21044 local_trajectory_builder_2d.cc:118] The final cost is : 0.0625408[0m
+[0m[ INFO] [1588133843.395435000, 66.425181323]: I0428 22:17:23.000000 21044 kidnap_detection.cc:35] weight fast is 16.4506[0m
+[0m[ INFO] [1588133843.395464386, 66.425181323]: I0428 22:17:23.000000 21044 kidnap_detection.cc:36] weight slow is 15.6774[0m
+[0m[ INFO] [1588133843.396174564, 66.425181323]: I0428 22:17:23.000000 21044 submap_2d.cc:187] Added submap 4[0m
+[0m[ INFO] [1588133843.435024676, 66.425181323]: I0428 22:17:23.000000 21143 constraint_builder_2d.cc:266] Node (1, 31) with 100 points on submap (1, 1) differs by translation 0.01 rotation 0.009 with score 66.9%.[0m
+[0m[ INFO] [1588133843.436154226, 66.425181323]: I0428 22:17:23.000000 21145 constraint_builder_2d.cc:266] Node (1, 34) with 109 points on submap (1, 1) differs by translation 0.01 rotation 0.009 with score 70.8%.[0m
+[KOptimizing: Done.     
+[KOptimizing: Done.     
+... logging to /home/linjian/.ros/log/2b5c61da-89d0-11ea-9632-f0421c850070/roslaunch-linjian-MS-7A37-21018.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/linjian/workspaces/catkin_ws/install_isolated/share/cartographer_ros/launch/demo_revo_lds.launch
+[1mstarted roslaunch server http://linjian-MS-7A37:42031/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.14
+ * /use_sim_time: True
+
+NODES
+  /
+    cartographer_node (cartographer_ros/cartographer_node)
+    cartographer_occupancy_grid_node (cartographer_ros/cartographer_occupancy_grid_node)
+    playbag (rosbag/play)
+    rviz (rviz/rviz)
+
+auto-starting new master
+[1mprocess[master]: started with pid [21028][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/linjian/workspaces/catkin_ws/install_isolated/share/cartographer_ros/launch/demo_revo_lds.launch http://localhost:11311
+[1msetting /run_id to 2b5c61da-89d0-11ea-9632-f0421c850070[0m
+[1mprocess[rosout-1]: started with pid [21041][0m
+started core service [/rosout]
+[1mprocess[cartographer_node-2]: started with pid [21044][0m
+[1mprocess[cartographer_occupancy_grid_node-3]: started with pid [21049][0m
+[1mprocess[rviz-4]: started with pid [21067][0m
+[1mprocess[playbag-5]: started with pid [21069][0m
+[1m[playbag-5] process has finished cleanly
+log file: /home/linjian/.ros/log/2b5c61da-89d0-11ea-9632-f0421c850070/playbag-5*.log[0m
+[rviz-4] killing on exit
+[cartographer_occupancy_grid_node-3] killing on exit
+[cartographer_node-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
