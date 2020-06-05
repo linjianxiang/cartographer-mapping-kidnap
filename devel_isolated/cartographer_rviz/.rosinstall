@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/linjian/workspaces/catkin_ws/devel_isolated/cartographer_rviz/setup.sh

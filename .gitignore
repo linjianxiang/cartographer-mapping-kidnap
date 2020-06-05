@@ -1,0 +1,8 @@
+*.bin
+*.swp
+*.log
+/src/cmake-build-debug
+/build_isolate
+/devel_isolate
+/install_isolate
+tag*
