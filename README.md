@@ -7,3 +7,5 @@ TESTING STEPS
     $./comile.sh
 2. run the kidnapped rosbag
     $./revo_test_merged.sh
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/KOcpmbW1qZ0/0.jpg)](https://www.youtube.com/watch?v=KOcpmbW1qZ0)
